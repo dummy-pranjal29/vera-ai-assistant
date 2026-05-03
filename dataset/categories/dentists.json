@@ -1,0 +1,66 @@
+{
+  "slug": "dentists",
+  "voice": {
+    "tone": "clinical-peer",
+    "allowed_vocab": ["fluoride", "caries", "recall", "plaque", "periodontal", "endodontic", "prophylaxis"],
+    "taboos": ["guaranteed", "cure", "100% safe", "miracle", "painless"],
+    "formality": "formal",
+    "language_preference": "en"
+  },
+  "offer_catalog": [
+    {
+      "service": "Dental Cleaning",
+      "price_range": "₹299",
+      "typical_duration": "30 min"
+    },
+    {
+      "service": "Teeth Whitening",
+      "price_range": "₹1,499",
+      "typical_duration": "1 hour"
+    },
+    {
+      "service": "Free Consultation",
+      "price_range": "Free",
+      "typical_duration": "15 min"
+    },
+    {
+      "service": "Root Canal Treatment",
+      "price_range": "₹3,999",
+      "typical_duration": "2 hours"
+    }
+  ],
+  "peer_stats": {
+    "avg_rating": 4.4,
+    "avg_reviews": 62,
+    "avg_ctr": 0.030,
+    "locality": "South Delhi"
+  },
+  "digest": [
+    {
+      "title": "3-month fluoride recall cuts caries recurrence 38% better than 6-month",
+      "source": "JIDA Oct 2026, p.14",
+      "summary": "2,100-patient trial showed significant improvement in caries prevention with 3-month recall intervals for high-risk adults",
+      "relevance": "High-risk adult patients, preventive care focus",
+      "published_date": "2026-04-20"
+    },
+    {
+      "title": "DCI updates radiograph dose limits for pediatric patients",
+      "source": "DCI Circular 2026-04",
+      "summary": "New guidelines reduce radiation exposure for children by 40% while maintaining diagnostic accuracy",
+      "relevance": "Pediatric dentistry practices",
+      "published_date": "2026-04-18"
+    }
+  ],
+  "seasonal_beats": [
+    {
+      "months": "Nov-Feb",
+      "pattern": "Exam stress increases bruxism cases by 35%",
+      "opportunity": "Promote night guard fitting and stress management"
+    },
+    {
+      "months": "Oct-Dec",
+      "pattern": "Wedding season drives teeth whitening demand",
+      "opportunity": "Run whitening campaigns targeting engaged couples"
+    }
+  ]
+}
