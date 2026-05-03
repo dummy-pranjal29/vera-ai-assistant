@@ -1,0 +1,13 @@
+# Core Dependencies
+fastapi==0.110.0          # HTTP API framework - modern, fast, async support
+uvicorn==0.27.0           # ASGI server to run FastAPI
+pydantic==2.6.0           # Data validation and settings management
+python-dotenv==1.0.0      # Environment variable management
+
+# LLM Integration
+anthropic==0.25.0         # Claude API client - our main LLM
+openai==1.12.0            # Backup option for GPT models
+
+# Utilities
+httpx==0.26.0             # Async HTTP client for API calls
+python-multipart==0.0.9   # Form data parsing for FastAPI
