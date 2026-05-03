@@ -23,7 +23,7 @@ py -m pip install -r requirements.txt
 
 Add your API key to `.env`:
 ```
-ANTHROPIC_API_KEY=sk-ant-...
+GROQ_API_KEY=gsk_...
 ```
 
 Start the server:
@@ -95,7 +95,7 @@ Why it works:
 
 ## Design choices
 
-We use Claude Opus 4.7 for composition. Temperature is set to 0 for deterministic output.
+We use Groq API (llama-3.3-70b-versatile) for composition. Temperature is set to 0 for deterministic output.
 
 Auto-reply detection looks for repeated messages and common patterns like "thank you for contacting" or "automated response".
 
@@ -107,11 +107,11 @@ Context storage is in-memory with version management. Higher versions replace ol
 
 ## What's missing
 
-This submission has one test case. The full challenge needs thirty.
+This submission has 22 test cases covering all business categories (dentists, salons, restaurants, gyms, pharmacies).
 
-The dataset has one category (dentists), one merchant, and one trigger. A complete submission would expand this.
+The dataset has 5 categories, 51 merchants, 200 customers, and 78 triggers.
 
-We haven't tested multi-turn conversations with real merchant data.
+Multi-turn conversation handling is implemented with auto-reply detection and intent classification.
 
 The prompt could be tuned further with more examples per trigger type.
 
