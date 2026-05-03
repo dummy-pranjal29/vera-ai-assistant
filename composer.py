@@ -2,7 +2,7 @@ import os
 import json
 from typing import Optional, Dict, Any, List
 from datetime import datetime
-from anthropic import Anthropic
+from openai import OpenAI
 from models import (
     CategoryContext, MerchantContext, TriggerContext, CustomerContext,
     ComposedMessage, VoiceProfile, OfferTemplate, PeerStats, DigestItem,
@@ -226,7 +226,10 @@ class ContextStore:
 
 class Composer:
     def __init__(self, api_key: Optional[str] = None):
-        self.client = Anthropic(api_key=api_key or os.getenv("ANTHROPIC_API_KEY"))
+        self.client = OpenAI(
+            api_key=api_key or os.getenv("GROQ_API_KEY"),
+            base_url="https://api.groq.com/openai/v1"
+        )
         self.store = ContextStore()
         self.sent_messages: Dict[str, set] = {}
 
@@ -241,17 +244,17 @@ class Composer:
         system_prompt = self._build_system_prompt(category, customer is not None)
         user_prompt = self._build_user_prompt(category, merchant, trigger, customer)
 
-        response = self.client.messages.create(
-            model="claude-opus-4-7",
-            max_tokens=2000,
-            temperature=0.0,
-            system=system_prompt,
+        response = self.client.chat.completions.create(
+            model="llama-3.3-70b-versatile",
             messages=[
+                {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
-            ]
+            ],
+            temperature=0.0,
+            max_tokens=2000
         )
 
-        content = response.content[0].text
+        content = response.choices[0].message.content
         parsed = self._parse_response(content)
 
         return ComposedMessage(
