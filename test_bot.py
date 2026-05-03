@@ -11,9 +11,9 @@ def test_composition():
 
     composer = Composer()
 
-    category_data = json.load(open("dataset/categories/dentists.json", "r", encoding="utf-8"))
-    merchant_data = json.load(open("dataset/merchants/m_001_drmeera_dentist_delhi.json", "r", encoding="utf-8"))
-    trigger_data = json.load(open("dataset/triggers/trg_001_research_digest_dentists.json", "r", encoding="utf-8"))
+    category_data = json.load(open("expanded/categories/dentists.json", "r", encoding="utf-8"))
+    merchant_data = json.load(open("expanded/merchants/m_001_drmeera_dentist_delhi.json", "r", encoding="utf-8"))
+    trigger_data = json.load(open("expanded/triggers/trg_001_research_digest_m_001_drmeera_dent.json", "r", encoding="utf-8"))
 
     composer.store.store_context("category", "dentists", 1, category_data)
     composer.store.store_context("merchant", "m_001_drmeera_dentist_delhi", 1, merchant_data)

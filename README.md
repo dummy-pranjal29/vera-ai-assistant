@@ -1,126 +1,401 @@
-# Vera
+# Vera AI Assistant
 
-An AI assistant that talks to merchants on WhatsApp.
+An intelligent WhatsApp messaging system for small business owners.
 
-Built for the magicpin AI Challenge 2026.
+---
 
-## What it does
+## Overview
 
-Vera helps merchants grow their business by sending personalized messages about:
+Vera helps merchants grow their business by sending personalized, context-aware messages about:
 - Industry research and trends
-- Performance insights
+- Performance insights and benchmarks
 - Customer engagement opportunities
-- Profile improvements
+- Timely business actions
 
-Every message combines four types of context: what we know about the industry, what we know about the merchant, what just happened, and (sometimes) what we know about their customers.
+Every message combines four types of context to ensure relevance and personalization.
 
-## Running it
+---
 
-Install dependencies:
+## The 4-Context Framework
+
+Vera's intelligence comes from combining four layers of context:
+
+### 1. Category Context
+Industry-specific knowledge for 5 business types:
+- **Dentists** - Clinical vocabulary, peer journals (JIDA), recall protocols
+- **Salons** - Beauty trends, seasonal demand, service terminology
+- **Restaurants** - Food industry insights, footfall patterns, menu strategies
+- **Gyms** - Fitness trends, membership patterns, seasonal cycles
+- **Pharmacies** - Medical terminology, regulatory knowledge, chronic care programs
+
+Each category has its own voice, vocabulary, peer benchmarks, and research insights.
+
+### 2. Merchant Context
+Individual business data:
+- Owner name and business name
+- Location and category
+- Performance metrics (views, CTR, calls)
+- Subscription status
+- Active offers
+
+### 3. Trigger Context
+Events that prompt a message (the "why now?"):
+- `research_digest` - New industry study published
+- `competitor_opened` - Competitor joined platform nearby
+- `perf_dip` - Performance metrics dropped
+- `perf_spike` - Performance metrics improved
+- `customer_lapsed_soft` - Customer hasn't visited recently
+- `recall_due` - Customer due for appointment/refill
+- `renewal_due` - Subscription expiring soon
+- `festival_upcoming` - Festival season approaching
+- `milestone_reached` - Hit view/call milestone
+- `review_theme_emerged` - Pattern in customer reviews
+
+### 4. Customer Context (Optional)
+Used for customer-specific messages:
+- Customer name and visit history
+- Last visit date and frequency
+- Relationship strength with merchant
+
+---
+
+## Example Message
+
+**Scenario:**
+- **Merchant:** Sandeep runs "Tandoor Treats" restaurant in Hyderabad
+- **Trigger:** A competitor just opened nearby
+- **Performance:** 4.7% CTR (higher than 2.5% peer average)
+- **Category:** Restaurants
+
+**Vera composes:**
+
+> Hey Sandeep, a competitor in Hyderabad just opened. Your 4.7% CTR is higher than the peer benchmark of 2.5%. What do you think is driving this engagement?
+
+**Why it works:**
+- **Specific:** Real numbers (4.7%, 2.5%)
+- **Timely:** Explains why now (competitor opened)
+- **Category-appropriate:** Casual restaurant owner tone
+- **Personalized:** Uses actual performance data
+- **Engaging:** Sparks curiosity and invites conversation
+
+---
+
+## Architecture
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                    FastAPI Server                        │
+│                      (bot.py)                            │
+├─────────────────────────────────────────────────────────┤
+│  POST /v1/context   - Store/update context              │
+│  POST /v1/tick      - Decide what messages to send      │
+│  POST /v1/reply     - Handle merchant responses         │
+│  GET  /v1/healthz   - Health check                      │
+│  GET  /v1/metadata  - Bot information                   │
+└─────────────────────────────────────────────────────────┘
+                            │
+                            ▼
+┌─────────────────────────────────────────────────────────┐
+│              Message Composer (composer.py)              │
+│                                                          │
+│  • Loads 4 contexts (category, merchant, trigger,       │
+│    customer)                                             │
+│  • Uses Groq LLM (llama-3.3-70b-versatile)              │
+│  • Temperature = 0 (deterministic output)               │
+│  • Generates personalized, specific messages            │
+└─────────────────────────────────────────────────────────┘
+                            │
+                            ▼
+┌─────────────────────────────────────────────────────────┐
+│           Conversation Handler                           │
+│        (conversation_handlers.py)                        │
+│                                                          │
+│  • Multi-turn conversation management                   │
+│  • Auto-reply detection                                 │
+│  • Intent classification (positive/negative/neutral)    │
+│  • Context-aware response routing                       │
+└─────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Dataset Structure
+
+```
+expanded/
+├── categories/          (5 files)
+│   ├── dentists.json
+│   ├── salons.json
+│   ├── restaurants.json
+│   ├── gyms.json
+│   └── pharmacies.json
+│
+├── merchants/           (51 files)
+│   ├── m_001_drmeera_dentist_delhi.json
+│   ├── m_022_sandeep_restaurant_hyderabad.json
+│   └── ...
+│
+├── customers/           (200 files)
+│   ├── c_001_priya_for_m_001_drmeera_dentist_delhi.json
+│   └── ...
+│
+├── triggers/            (78 files)
+│   ├── trg_001_research_digest_m_001_drmeera_dent.json
+│   ├── trg_045_competitor_opened_m_022_sandeep_restau.json
+│   └── ...
+│
+└── test_pairs.json      (30 test cases)
+```
+
+---
+
+## Installation & Setup
+
+### Prerequisites
+- Python 3.8+
+- Groq API key
+
+### Install Dependencies
 ```bash
-py -m pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
-Add your API key to `.env`:
+### Configure API Key
+Create a `.env` file in the root directory:
 ```
-GROQ_API_KEY=gsk_...
+GROQ_API_KEY=gsk_your_api_key_here
 ```
 
-Start the server:
+### Start the Server
 ```bash
-py bot.py
+python bot.py
 ```
 
-Generate a test message:
+Server runs on `http://localhost:8080`
+
+### Generate Test Submission
 ```bash
-py generate_submission.py
+python generate_submission.py
 ```
 
-## How it works
+This creates `submission.jsonl` with 30 test messages.
 
-The bot exposes five HTTP endpoints. A judge sends context updates, asks what messages to send, and simulates merchant replies.
+---
 
-**POST /v1/context** — Store or update context (category, merchant, customer, trigger)
+## API Endpoints
 
-**POST /v1/tick** — Given available triggers, decide what to send
+### POST /v1/context
+Store or update context for categories, merchants, customers, or triggers.
 
-**POST /v1/reply** — Handle a merchant's response
+**Request:**
+```json
+{
+  "scope": "merchant",
+  "context_id": "m_022_sandeep_restaurant_hyderabad",
+  "version": 1,
+  "payload": {
+    "identity": {
+      "name": "Sandeep",
+      "business_name": "Tandoor Treats"
+    },
+    "category_slug": "restaurants",
+    "performance": {
+      "views_30d": 2847,
+      "calls_30d": 134,
+      "ctr": 0.047
+    }
+  }
+}
+```
 
-**GET /v1/healthz** — Health check
+### POST /v1/tick
+Decide what messages to send based on available triggers.
 
-**GET /v1/metadata** — Bot info
+**Request:**
+```json
+{
+  "available_triggers": [
+    "trg_045_competitor_opened_m_022_sandeep_restau"
+  ]
+}
+```
 
-## What makes a good message
+**Response:**
+```json
+{
+  "actions": [
+    {
+      "trigger_id": "trg_045_competitor_opened_m_022_sandeep_restau",
+      "merchant_id": "m_022_sandeep_restaurant_hyderabad",
+      "customer_id": null,
+      "body": "Hey Sandeep, a competitor in Hyderabad just opened...",
+      "cta": "open_ended",
+      "send_as": "vera",
+      "suppression_key": "competitor_opened:m_022_sandeep_restaurant_hyderabad:gen_45"
+    }
+  ]
+}
+```
 
-The judge scores on five things:
+### POST /v1/reply
+Handle merchant's response to a message.
 
-**Specificity** — Does it cite real numbers, dates, or sources?
+**Request:**
+```json
+{
+  "merchant_id": "m_022_sandeep_restaurant_hyderabad",
+  "inbound_text": "Yes, I'd like to know more about creating offers"
+}
+```
 
-**Category fit** — Does it sound right for this type of business?
+---
 
-**Merchant fit** — Is it personalized to this specific merchant?
+## Submission Format
 
-**Trigger relevance** — Does it explain why now?
+The `submission.jsonl` file contains 30 test messages, one per line:
 
-**Engagement** — Would a real merchant want to reply?
+```json
+{"test_id": "T01", "body": "...", "cta": "open_ended", "send_as": "vera", "suppression_key": "...", "rationale": "..."}
+{"test_id": "T02", "body": "...", "cta": "open_ended", "send_as": "vera", "suppression_key": "...", "rationale": "..."}
+...
+```
 
-## Example
+**Fields:**
+- `test_id` - Unique test identifier (T01-T30)
+- `body` - The message text
+- `cta` - Call-to-action type (always "open_ended")
+- `send_as` - Sender identity ("vera" or "merchant_on_behalf")
+- `suppression_key` - Deduplication key
+- `rationale` - Why this message was composed this way
 
-Dr. Meera runs a dental clinic in Delhi. Her click-through rate is 2.1%, below the peer median of 3.0%. A research digest just dropped with a study on fluoride recall intervals.
+---
 
-Vera composes:
+## Key Features
 
-> Dr. Meera, JIDA's Oct issue landed. One item relevant to your high-risk adult patients — 2,100-patient trial showed 3-month fluoride recall cuts caries recurrence 38% better than 6-month. Worth a look (2-min abstract). Want me to pull it + draft a patient-ed WhatsApp you can share? — JIDA Oct 2026 p.14
+### 1. Specificity
+Every message includes concrete numbers, dates, or sources:
+- "4.7% CTR vs 2.5% peer average"
+- "5274 views in the last 30 days"
+- "JIDA Oct 2026, p.14"
 
-Why it works:
-- Specific: "2,100-patient", "38% better", "JIDA Oct 2026 p.14"
-- Category fit: Clinical vocabulary, peer tone, source citation
-- Merchant fit: "your high-risk adult patients" comes from her customer data
-- Trigger relevance: Explicitly references the digest
-- Engagement: Curiosity + reciprocity + low-friction ask
+### 2. Category Fit
+Messages use appropriate vocabulary and tone for each business type:
+- Dentists: Clinical, professional, journal citations
+- Restaurants: Casual, operator-focused, footfall metrics
+- Salons: Warm, trend-aware, service terminology
+- Gyms: Motivational, fitness-focused, membership language
+- Pharmacies: Trustworthy, precise, medical terminology
 
-## Files
+### 3. Trigger Relevance
+Every message explains why it's being sent now:
+- "A competitor just opened"
+- "Your performance has improved"
+- "Festival season is coming"
+- "Your subscription is expiring"
 
-**bot.py** — FastAPI server
+### 4. Auto-Reply Detection
+Identifies automated responses to avoid wasting conversation turns:
+- Pattern matching for common auto-reply phrases
+- Repetition detection
+- Ends conversation after 2 auto-replies
 
-**composer.py** — Message composition engine
+### 5. Intent Classification
+Routes merchant responses appropriately:
+- **Positive intent** → Take action, provide next steps
+- **Negative intent** → Acknowledge, offer alternatives
+- **Neutral intent** → Clarify, ask follow-up questions
 
-**conversation_handlers.py** — Multi-turn conversation logic
+---
 
-**models.py** — Data structures
+## Design Decisions
 
-**generate_submission.py** — Test script
+### Why Groq LLM?
+- Fast inference (llama-3.3-70b-versatile)
+- Cost-effective for high-volume messaging
+- Strong instruction-following for structured output
 
-**dataset/** — Sample contexts
+### Why Temperature = 0?
+- Deterministic output for consistent quality
+- Reproducible results for testing
+- Reduces hallucination risk
 
-## Design choices
+### Why 4-Context Framework?
+- **Category** ensures industry-appropriate language
+- **Merchant** enables personalization
+- **Trigger** provides timely relevance
+- **Customer** adds relationship depth
 
-We use Groq API (llama-3.3-70b-versatile) for composition. Temperature is set to 0 for deterministic output.
+### Why In-Memory Storage?
+- Fast context retrieval
+- Version management for updates
+- Suitable for challenge scope (production would use database)
 
-Auto-reply detection looks for repeated messages and common patterns like "thank you for contacting" or "automated response".
+---
 
-Intent detection classifies merchant responses as positive, negative, or neutral and routes accordingly.
+## Testing
 
-Conversation state tracks history per merchant. We end conversations after three merchant turns or two auto-replies.
+Run the test script to verify message composition:
 
-Context storage is in-memory with version management. Higher versions replace older ones.
+```bash
+python test_bot.py
+```
 
-## What's missing
+This loads sample contexts and generates a test message.
 
-This submission has 22 test cases covering all business categories (dentists, salons, restaurants, gyms, pharmacies).
+---
 
-The dataset has 5 categories, 51 merchants, 200 customers, and 78 triggers.
+## Project Structure
 
-Multi-turn conversation handling is implemented with auto-reply detection and intent classification.
+```
+vera-ai-assistant/
+├── bot.py                      # FastAPI server
+├── composer.py                 # Message composition engine
+├── conversation_handlers.py    # Multi-turn conversation logic
+├── models.py                   # Data structures (Pydantic models)
+├── generate_submission.py      # Creates submission.jsonl
+├── test_bot.py                 # Test script
+├── requirements.txt            # Python dependencies
+├── .env                        # API keys (not in git)
+├── .env.example                # Example environment file
+├── .gitignore                  # Git ignore rules
+├── submission.jsonl            # 30 test messages (submission file)
+└── expanded/                   # Dataset
+    ├── categories/             # 5 category files
+    ├── merchants/              # 51 merchant files
+    ├── customers/              # 200 customer files
+    ├── triggers/               # 78 trigger files
+    └── test_pairs.json         # 30 test case mappings
+```
 
-The prompt could be tuned further with more examples per trigger type.
+---
 
-## Notes
+## Coverage
 
-The challenge brief says production Vera struggles with auto-reply detection, intent handoff, and generic copy. We tried to address all three.
+**30 test messages covering:**
+- 5 business categories (dentists, salons, restaurants, gyms, pharmacies)
+- 10 trigger types (research_digest, competitor_opened, perf_dip, perf_spike, customer_lapsed_soft, recall_due, renewal_due, festival_upcoming, milestone_reached, review_theme_emerged)
+- 2 sender types (vera, merchant_on_behalf)
+- 22 merchant-facing messages
+- 8 customer-facing messages
 
-For auto-replies: pattern matching plus repetition detection.
+---
 
-For intent handoff: when a merchant says "yes" or "let's do it", we switch to action mode immediately instead of asking more questions.
+## Evaluation Criteria
 
-For generic copy: we anchor every message on a verifiable fact from the context and use service+price format instead of percentage discounts.
+Messages are scored on:
+
+1. **Specificity** - Concrete numbers, dates, sources
+2. **Category Fit** - Appropriate vocabulary and tone
+3. **Merchant Fit** - Personalized to specific merchant
+4. **Trigger Relevance** - Clear "why now"
+5. **Engagement** - Likely to get a response
+
+---
+
+## Technologies Used
+
+- **FastAPI** - Web framework
+- **Pydantic** - Data validation
+- **Groq API** - LLM inference (llama-3.3-70b-versatile)
+- **Python 3.8+** - Programming language
+
