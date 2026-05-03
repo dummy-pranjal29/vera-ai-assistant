@@ -6,102 +6,35 @@
     "register": "approachable_expert",
     "code_mix": "hindi_english_natural",
     "vocab_allowed": [
-      "balayage",
-      "highlights",
-      "keratin",
-      "smoothening",
-      "hair spa",
-      "manicure",
-      "pedicure",
-      "facial",
-      "threading",
-      "waxing",
-      "extensions",
-      "olaplex",
-      "wella",
-      "loreal",
-      "schwarzkopf",
-      "redken"
+      "balayage", "highlights", "keratin", "smoothening", "hair spa",
+      "manicure", "pedicure", "facial", "threading", "waxing", "extensions",
+      "olaplex", "wella", "loreal", "schwarzkopf", "redken"
     ],
     "vocab_taboo": [
-      "guaranteed glow",
-      "permanent results",
-      "instant transformation",
-      "miracle",
+      "guaranteed glow", "permanent results", "instant transformation", "miracle",
       "best in city"
     ],
-    "salutation_examples": [
-      "Hi {first_name}",
-      "{salon_name} team"
-    ],
+    "salutation_examples": ["Hi {first_name}", "{salon_name} team"],
     "tone_examples": [
       "Bridal season is starting — bookings usually 2x normal in next 4 weeks",
       "Quick one — your Saturday 5-7pm slot has been the strongest this month"
     ]
   },
   "offer_catalog": [
-    {
-      "id": "sal_001",
-      "title": "Haircut @ ₹99",
-      "value": "99",
-      "audience": "new_user",
-      "type": "service_at_price"
-    },
-    {
-      "id": "sal_002",
-      "title": "FREE head massage with Haircut",
-      "value": "0",
-      "audience": "new_user",
-      "type": "free_addon"
-    },
-    {
-      "id": "sal_003",
-      "title": "Hair Spa @ ₹499",
-      "value": "499",
-      "audience": "new_user",
-      "type": "service_at_price"
-    },
-    {
-      "id": "sal_004",
-      "title": "Threading + Waxing combo @ ₹299",
-      "value": "299",
-      "audience": "new_user",
-      "type": "service_at_price"
-    },
-    {
-      "id": "sal_005",
-      "title": "Bridal Trial @ ₹999",
-      "value": "999",
-      "audience": "new_user",
-      "type": "service_at_price"
-    },
-    {
-      "id": "sal_006",
-      "title": "Keratin Treatment @ ₹2,499",
-      "value": "2499",
-      "audience": "new_user",
-      "type": "service_at_price"
-    },
-    {
-      "id": "sal_007",
-      "title": "Mani+Pedi Combo @ ₹599",
-      "value": "599",
-      "audience": "new_user",
-      "type": "service_at_price"
-    },
-    {
-      "id": "sal_008",
-      "title": "Annual Membership: 12 services @ ₹4,999",
-      "value": "4999",
-      "audience": "repeat_user",
-      "type": "membership"
-    }
+    { "id": "sal_001", "title": "Haircut @ ₹99", "value": "99", "audience": "new_user", "type": "service_at_price" },
+    { "id": "sal_002", "title": "FREE head massage with Haircut", "value": "0", "audience": "new_user", "type": "free_addon" },
+    { "id": "sal_003", "title": "Hair Spa @ ₹499", "value": "499", "audience": "new_user", "type": "service_at_price" },
+    { "id": "sal_004", "title": "Threading + Waxing combo @ ₹299", "value": "299", "audience": "new_user", "type": "service_at_price" },
+    { "id": "sal_005", "title": "Bridal Trial @ ₹999", "value": "999", "audience": "new_user", "type": "service_at_price" },
+    { "id": "sal_006", "title": "Keratin Treatment @ ₹2,499", "value": "2499", "audience": "new_user", "type": "service_at_price" },
+    { "id": "sal_007", "title": "Mani+Pedi Combo @ ₹599", "value": "599", "audience": "new_user", "type": "service_at_price" },
+    { "id": "sal_008", "title": "Annual Membership: 12 services @ ₹4,999", "value": "4999", "audience": "repeat_user", "type": "membership" }
   ],
   "peer_stats": {
     "scope": "metro_unisex_salons_2026",
     "avg_rating": 4.5,
     "avg_reviews": 88,
-    "avg_ctr": 0.04,
+    "avg_ctr": 0.040,
     "locality": "Kapra, Hyderabad"
   },
   "digest": [

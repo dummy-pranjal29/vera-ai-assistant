@@ -6,63 +6,24 @@
     "register": "neighbourhood_pharmacist",
     "code_mix": "hindi_english_natural",
     "vocab_allowed": [
-      "OTC",
-      "schedule H",
-      "schedule X",
-      "generic",
-      "branded",
-      "molecule",
-      "MRP",
-      "expiry",
-      "batch",
-      "PCR retail",
-      "pharmacist counsel"
+      "OTC", "schedule H", "schedule X", "generic", "branded", "molecule",
+      "MRP", "expiry", "batch", "PCR retail", "pharmacist counsel"
     ],
     "vocab_taboo": [
-      "miracle cure",
-      "guaranteed result",
-      "100% safe",
-      "doctor recommended (without disclosure)",
+      "miracle cure", "guaranteed result", "100% safe", "doctor recommended (without disclosure)",
       "best price (without supporting data)"
     ],
-    "salutation_examples": [
-      "Hi {pharmacist_name}",
-      "{pharmacy_name} team"
-    ],
+    "salutation_examples": ["Hi {pharmacist_name}", "{pharmacy_name} team"],
     "tone_examples": [
       "Quick check — your repeat-prescription customer count is up 18% this month",
       "Heads up: a generic alternative for {molecule} just got approved — likely 30% lower MRP"
     ]
   },
   "offer_catalog": [
-    {
-      "id": "phr_001",
-      "title": "Flat 20% OFF on medicines",
-      "value": "20%",
-      "audience": "new_user",
-      "type": "percentage_discount"
-    },
-    {
-      "id": "phr_002",
-      "title": "Free Home Delivery > ₹499",
-      "value": "free_delivery",
-      "audience": "new_user",
-      "type": "free_addon"
-    },
-    {
-      "id": "phr_003",
-      "title": "Senior Citizen 15% OFF (60+ age)",
-      "value": "15%",
-      "audience": "senior",
-      "type": "percentage_discount"
-    },
-    {
-      "id": "phr_004",
-      "title": "Free BP & Sugar Check",
-      "value": "0",
-      "audience": "all",
-      "type": "free_service"
-    }
+    { "id": "phr_001", "title": "Flat 20% OFF on medicines", "value": "20%", "audience": "new_user", "type": "percentage_discount" },
+    { "id": "phr_002", "title": "Free Home Delivery > ₹499", "value": "free_delivery", "audience": "new_user", "type": "free_addon" },
+    { "id": "phr_003", "title": "Senior Citizen 15% OFF (60+ age)", "value": "15%", "audience": "senior", "type": "percentage_discount" },
+    { "id": "phr_004", "title": "Free BP & Sugar Check", "value": "0", "audience": "all", "type": "free_service" }
   ],
   "peer_stats": {
     "scope": "metro_neighbourhood_pharmacies_2026",

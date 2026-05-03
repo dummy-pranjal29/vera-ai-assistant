@@ -131,6 +131,54 @@
       "trigger_id": "trg_038_review_theme_emerged_m_004_dr_neha_dentis",
       "merchant_id": "m_004_dr_neha_dentist_jaipur",
       "customer_id": null
+    },
+    {
+      "test_id": "T23",
+      "trigger_id": "trg_046_competitor_opened_m_005_dr_asha_dentis",
+      "merchant_id": "m_005_dr_asha_dentist_chandigarh",
+      "customer_id": null
+    },
+    {
+      "test_id": "T24",
+      "trigger_id": "trg_047_competitor_opened_m_013_sushma_salon_c",
+      "merchant_id": "m_013_sushma_salon_chandigarh",
+      "customer_id": null
+    },
+    {
+      "test_id": "T25",
+      "trigger_id": "trg_053_festival_upcoming_m_034_vivek_gym_delh",
+      "merchant_id": "m_034_vivek_gym_delhi",
+      "customer_id": null
+    },
+    {
+      "test_id": "T26",
+      "trigger_id": "trg_057_festival_upcoming_m_044_sanjay_pharmac",
+      "merchant_id": "m_044_sanjay_pharmacie_mumbai",
+      "customer_id": null
+    },
+    {
+      "test_id": "T27",
+      "trigger_id": "trg_060_recall_due_m_043_sunita_pharmac",
+      "merchant_id": "m_043_sunita_pharmacie_mumbai",
+      "customer_id": "c_170_ira_for_m_043_sunita_pharmacie_mumbai"
+    },
+    {
+      "test_id": "T28",
+      "trigger_id": "trg_068_customer_lapsed_soft_m_033_manisha_gym_ch",
+      "merchant_id": "m_033_manisha_gym_chandigarh",
+      "customer_id": "c_130_vivaan_for_m_033_manisha_gym_chandigarh"
+    },
+    {
+      "test_id": "T29",
+      "trigger_id": "trg_074_renewal_due_m_036_vivek_gym_bang",
+      "merchant_id": "m_036_vivek_gym_bangalore",
+      "customer_id": null
+    },
+    {
+      "test_id": "T30",
+      "trigger_id": "trg_004_research_digest_m_038_akash_gym_mumb",
+      "merchant_id": "m_038_akash_gym_mumbai",
+      "customer_id": null
     }
   ]
 }
