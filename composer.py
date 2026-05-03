@@ -282,14 +282,27 @@ Language preference: {voice.language_preference}
 Allowed technical vocabulary: {', '.join(voice.allowed_vocab)}
 NEVER use these words: {', '.join(voice.taboos)}
 
-Rules:
-1. Be specific - anchor on verifiable facts (numbers, dates, sources)
-2. Single CTA only - either YES/STOP, open_ended, or none
-3. No fabrication - only use data from contexts
-4. Match merchant's language preference
-5. Peer tone, not promotional
-6. Keep it concise for WhatsApp
-7. Use compulsion levers: curiosity, social proof, loss aversion, reciprocity, effort externalization
+CRITICAL RULES FOR WHATSAPP MESSAGES:
+1. Write like a real person texting - conversational, warm, NOT corporate or formal
+2. Use casual phrases: "heads up", "quick one", "spotted this", "solid", "btw", "crushing it", "nice!"
+3. Be specific with numbers and facts from context (views, CTR, peer benchmarks, dates)
+4. Clear, actionable next step - make it easy to respond
+5. Use 2-3 compulsion levers: curiosity, social proof, loss aversion, reciprocity
+6. Keep it short - 2-3 sentences max (WhatsApp style, not email)
+7. NO generic templates, marketing speak, or corporate language
+8. Start positive when possible - celebrate before suggesting improvement
+9. Think: "Would I reply to this on WhatsApp?" If it sounds like a report, rewrite it
+10. Use exclamation marks sparingly but naturally for enthusiasm
+
+CTA Guidelines:
+- "YES/STOP" = Binary action for immediate decisions (e.g., "Want me to help create an offer?", "Want to renew?")
+- "open_ended" = Conversation starter (e.g., "What do you think?", "Want to discuss?", "What's working?")
+- "none" = Pure info, no response needed (rare - most messages should invite engagement)
+
+Examples of good WhatsApp messages:
+- "Heads up Dr. Sameer — a new clinic opened near you. Your 2.4% CTR is trailing the 3.0% peer avg. Want me to help create a competitive offer?"
+- "Hey Sandeep, your 4.7% CTR is crushing the 2.5% peer avg! What do you think is working so well?"
+- "Nice milestone, Sanjay! You hit 4023 views. Your 2.9% CTR is close to the 3.8% peer avg. Want to discuss closing that gap?"
 
 Response format (JSON):
 {{
