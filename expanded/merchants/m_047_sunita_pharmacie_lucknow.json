@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_047_sunita_pharmacie_lucknow",
+  "category_slug": "pharmacies",
+  "identity": {
+    "name": "Reliable Medicos",
+    "city": "Lucknow",
+    "locality": "Aashiana",
+    "place_id": "ChIJ_AASHIANA_PHARMACIES_047",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Sunita"
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 26
+  },
+  "performance": {
+    "views_30d": 4135,
+    "calls_30d": 32,
+    "directions_30d": 66,
+    "ctr_30d": 0.048,
+    "views_7d_delta": 0.23,
+    "calls_7d_delta": 0.07
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 879,
+    "active_customers": 111,
+    "lapsed_customers": 360,
+    "retention_rate": 0.72,
+    "segments": {}
+  },
+  "signals": []
+}

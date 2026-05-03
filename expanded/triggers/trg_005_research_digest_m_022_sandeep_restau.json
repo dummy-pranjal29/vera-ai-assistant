@@ -1,0 +1,14 @@
+{
+  "id": "trg_005_research_digest_m_022_sandeep_restau",
+  "scope": "merchant",
+  "kind": "research_digest",
+  "source": "external",
+  "merchant_id": "m_022_sandeep_restaurant_hyderabad",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_022_sandeep_restaurant_hyderabad"
+  },
+  "urgency": 2,
+  "suppression_key": "research_digest:m_022_sandeep_restaurant_hyderabad:gen_5",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

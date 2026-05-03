@@ -1,0 +1,136 @@
+{
+  "pairs": [
+    {
+      "test_id": "T01",
+      "trigger_id": "trg_044_competitor_opened_m_007_dr_sameer_dent",
+      "merchant_id": "m_007_dr_sameer_dentist_mumbai",
+      "customer_id": null
+    },
+    {
+      "test_id": "T02",
+      "trigger_id": "trg_045_competitor_opened_m_022_sandeep_restau",
+      "merchant_id": "m_022_sandeep_restaurant_hyderabad",
+      "customer_id": null
+    },
+    {
+      "test_id": "T03",
+      "trigger_id": "trg_065_customer_lapsed_soft_m_030_karim_restaura",
+      "merchant_id": "m_030_karim_restaurant_bangalore",
+      "customer_id": "c_117_kavya_for_m_030_karim_restaurant_bangalore"
+    },
+    {
+      "test_id": "T04",
+      "trigger_id": "trg_066_customer_lapsed_soft_m_007_dr_sameer_dent",
+      "merchant_id": "m_007_dr_sameer_dentist_mumbai",
+      "customer_id": "c_026_ishaan_for_m_007_dr_sameer_dentist_mumbai"
+    },
+    {
+      "test_id": "T05",
+      "trigger_id": "trg_030_dormant_with_vera_m_016_karim_salon_ch",
+      "merchant_id": "m_016_karim_salon_chandigarh",
+      "customer_id": null
+    },
+    {
+      "test_id": "T06",
+      "trigger_id": "trg_031_dormant_with_vera_m_016_karim_salon_ch",
+      "merchant_id": "m_016_karim_salon_chandigarh",
+      "customer_id": null
+    },
+    {
+      "test_id": "T07",
+      "trigger_id": "trg_051_festival_upcoming_m_023_sandeep_restau",
+      "merchant_id": "m_023_sandeep_restaurant_chandigarh",
+      "customer_id": null
+    },
+    {
+      "test_id": "T08",
+      "trigger_id": "trg_052_festival_upcoming_m_021_renu_salon_mum",
+      "merchant_id": "m_021_renu_salon_mumbai",
+      "customer_id": null
+    },
+    {
+      "test_id": "T09",
+      "trigger_id": "trg_023_milestone_reached_m_050_sanjay_pharmac",
+      "merchant_id": "m_050_sanjay_pharmacie_ahmedabad",
+      "customer_id": null
+    },
+    {
+      "test_id": "T10",
+      "trigger_id": "trg_024_milestone_reached_m_030_karim_restaura",
+      "merchant_id": "m_030_karim_restaurant_bangalore",
+      "customer_id": null
+    },
+    {
+      "test_id": "T11",
+      "trigger_id": "trg_009_perf_dip_m_030_karim_restaura",
+      "merchant_id": "m_030_karim_restaurant_bangalore",
+      "customer_id": null
+    },
+    {
+      "test_id": "T12",
+      "trigger_id": "trg_010_perf_dip_m_035_vivek_gym_chan",
+      "merchant_id": "m_035_vivek_gym_chandigarh",
+      "customer_id": null
+    },
+    {
+      "test_id": "T13",
+      "trigger_id": "trg_016_perf_spike_m_040_sneha_gym_luck",
+      "merchant_id": "m_040_sneha_gym_lucknow",
+      "customer_id": null
+    },
+    {
+      "test_id": "T14",
+      "trigger_id": "trg_017_perf_spike_m_037_roshni_gym_pun",
+      "merchant_id": "m_037_roshni_gym_pune",
+      "customer_id": null
+    },
+    {
+      "test_id": "T15",
+      "trigger_id": "trg_058_recall_due_m_029_imran_restaura",
+      "merchant_id": "m_029_imran_restaurant_bangalore",
+      "customer_id": "c_115_tara_for_m_029_imran_restaurant_bangalore"
+    },
+    {
+      "test_id": "T16",
+      "trigger_id": "trg_059_recall_due_m_020_karim_salon_ch",
+      "merchant_id": "m_020_karim_salon_chennai",
+      "customer_id": "c_079_arjun_for_m_020_karim_salon_chennai"
+    },
+    {
+      "test_id": "T17",
+      "trigger_id": "trg_072_renewal_due_m_051_vinod_pharmaci",
+      "merchant_id": "m_051_vinod_pharmacie_chandigarh",
+      "customer_id": null
+    },
+    {
+      "test_id": "T18",
+      "trigger_id": "trg_073_renewal_due_m_006_dr_asha_dentis",
+      "merchant_id": "m_006_dr_asha_dentist_chennai",
+      "customer_id": null
+    },
+    {
+      "test_id": "T19",
+      "trigger_id": "trg_002_research_digest_m_011_dr_sameer_dent",
+      "merchant_id": "m_011_dr_sameer_dentist_lucknow",
+      "customer_id": null
+    },
+    {
+      "test_id": "T20",
+      "trigger_id": "trg_003_research_digest_m_017_geeta_salon_ah",
+      "merchant_id": "m_017_geeta_salon_ahmedabad",
+      "customer_id": null
+    },
+    {
+      "test_id": "T21",
+      "trigger_id": "trg_037_review_theme_emerged_m_027_ravi_restauran",
+      "merchant_id": "m_027_ravi_restaurant_hyderabad",
+      "customer_id": null
+    },
+    {
+      "test_id": "T22",
+      "trigger_id": "trg_038_review_theme_emerged_m_004_dr_neha_dentis",
+      "merchant_id": "m_004_dr_neha_dentist_jaipur",
+      "customer_id": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "trg_019_perf_spike_m_043_sunita_pharmac",
+  "scope": "merchant",
+  "kind": "perf_spike",
+  "source": "internal",
+  "merchant_id": "m_043_sunita_pharmacie_mumbai",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_043_sunita_pharmacie_mumbai"
+  },
+  "urgency": 1,
+  "suppression_key": "perf_spike:m_043_sunita_pharmacie_mumbai:gen_19",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

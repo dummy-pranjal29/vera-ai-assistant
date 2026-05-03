@@ -1,0 +1,14 @@
+{
+  "id": "trg_048_competitor_opened_m_002_dr_sameer_dent",
+  "scope": "merchant",
+  "kind": "competitor_opened",
+  "source": "external",
+  "merchant_id": "m_002_dr_sameer_dentist_bangalore",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_002_dr_sameer_dentist_bangalore"
+  },
+  "urgency": 2,
+  "suppression_key": "competitor_opened:m_002_dr_sameer_dentist_bangalore:gen_48",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

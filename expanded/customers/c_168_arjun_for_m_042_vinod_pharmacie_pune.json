@@ -1,0 +1,23 @@
+{
+  "customer_id": "c_168_arjun_for_m_042_vinod_pharmacie_pune",
+  "merchant_id": "m_042_vinod_pharmacie_pune",
+  "identity": {
+    "name": "Arjun",
+    "phone": "<redacted>",
+    "language_pref": "en"
+  },
+  "relationship": {
+    "first_visit": "2025-09-01",
+    "last_visit": "2026-04-01",
+    "visits_total": 2,
+    "services_received": []
+  },
+  "state": "lapsed_hard",
+  "preferences": {},
+  "consent": {
+    "opted_in_at": "2025-09-01",
+    "scope": [
+      "promotional_offers"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "trg_056_festival_upcoming_m_033_manisha_gym_ch",
+  "scope": "merchant",
+  "kind": "festival_upcoming",
+  "source": "external",
+  "merchant_id": "m_033_manisha_gym_chandigarh",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_033_manisha_gym_chandigarh"
+  },
+  "urgency": 1,
+  "suppression_key": "festival_upcoming:m_033_manisha_gym_chandigarh:gen_56",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

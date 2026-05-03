@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_050_sanjay_pharmacie_ahmedabad",
+  "category_slug": "pharmacies",
+  "identity": {
+    "name": "TrueCare Medicos",
+    "city": "Ahmedabad",
+    "locality": "Satellite",
+    "place_id": "ChIJ_SATELLITE_PHARMACIES_050",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Sanjay"
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 160
+  },
+  "performance": {
+    "views_30d": 4023,
+    "calls_30d": 12,
+    "directions_30d": 42,
+    "ctr_30d": 0.029,
+    "views_7d_delta": 0.09,
+    "calls_7d_delta": -0.28
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 641,
+    "active_customers": 689,
+    "lapsed_customers": 210,
+    "retention_rate": 0.59,
+    "segments": {}
+  },
+  "signals": []
+}

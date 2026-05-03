@@ -1,0 +1,23 @@
+{
+  "customer_id": "c_126_ira_for_m_032_vivek_gym_pune",
+  "merchant_id": "m_032_vivek_gym_pune",
+  "identity": {
+    "name": "Ira",
+    "phone": "<redacted>",
+    "language_pref": "en"
+  },
+  "relationship": {
+    "first_visit": "2025-09-01",
+    "last_visit": "2026-04-01",
+    "visits_total": 10,
+    "services_received": []
+  },
+  "state": "active",
+  "preferences": {},
+  "consent": {
+    "opted_in_at": "2025-09-01",
+    "scope": [
+      "promotional_offers"
+    ]
+  }
+}

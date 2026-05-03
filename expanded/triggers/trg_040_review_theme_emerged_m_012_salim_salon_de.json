@@ -1,0 +1,14 @@
+{
+  "id": "trg_040_review_theme_emerged_m_012_salim_salon_de",
+  "scope": "merchant",
+  "kind": "review_theme_emerged",
+  "source": "internal",
+  "merchant_id": "m_012_salim_salon_delhi",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_012_salim_salon_delhi"
+  },
+  "urgency": 3,
+  "suppression_key": "review_theme_emerged:m_012_salim_salon_delhi:gen_40",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

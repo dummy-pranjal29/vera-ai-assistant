@@ -1,0 +1,14 @@
+{
+  "id": "trg_012_perf_dip_m_025_mukesh_restaur",
+  "scope": "merchant",
+  "kind": "perf_dip",
+  "source": "internal",
+  "merchant_id": "m_025_mukesh_restaurant_chennai",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_025_mukesh_restaurant_chennai"
+  },
+  "urgency": 3,
+  "suppression_key": "perf_dip:m_025_mukesh_restaurant_chennai:gen_12",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

@@ -1,0 +1,23 @@
+{
+  "customer_id": "c_068_ishaan_for_m_017_geeta_salon_ahmedabad",
+  "merchant_id": "m_017_geeta_salon_ahmedabad",
+  "identity": {
+    "name": "Ishaan",
+    "phone": "<redacted>",
+    "language_pref": "en"
+  },
+  "relationship": {
+    "first_visit": "2025-09-01",
+    "last_visit": "2026-04-01",
+    "visits_total": 4,
+    "services_received": []
+  },
+  "state": "new",
+  "preferences": {},
+  "consent": {
+    "opted_in_at": "2025-09-01",
+    "scope": [
+      "promotional_offers"
+    ]
+  }
+}

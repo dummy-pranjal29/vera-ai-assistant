@@ -1,0 +1,14 @@
+{
+  "id": "trg_024_milestone_reached_m_030_karim_restaura",
+  "scope": "merchant",
+  "kind": "milestone_reached",
+  "source": "internal",
+  "merchant_id": "m_030_karim_restaurant_bangalore",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_030_karim_restaurant_bangalore"
+  },
+  "urgency": 1,
+  "suppression_key": "milestone_reached:m_030_karim_restaurant_bangalore:gen_24",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

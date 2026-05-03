@@ -1,0 +1,14 @@
+{
+  "id": "trg_065_customer_lapsed_soft_m_030_karim_restaura",
+  "scope": "customer",
+  "kind": "customer_lapsed_soft",
+  "source": "internal",
+  "merchant_id": "m_030_karim_restaurant_bangalore",
+  "customer_id": "c_117_kavya_for_m_030_karim_restaurant_bangalore",
+  "payload": {
+    "merchant_id": "m_030_karim_restaurant_bangalore"
+  },
+  "urgency": 3,
+  "suppression_key": "customer_lapsed_soft:m_030_karim_restaurant_bangalore:gen_65",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

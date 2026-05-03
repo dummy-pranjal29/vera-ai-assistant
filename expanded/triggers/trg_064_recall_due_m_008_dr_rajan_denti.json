@@ -1,0 +1,14 @@
+{
+  "id": "trg_064_recall_due_m_008_dr_rajan_denti",
+  "scope": "customer",
+  "kind": "recall_due",
+  "source": "internal",
+  "merchant_id": "m_008_dr_rajan_dentist_mumbai",
+  "customer_id": "c_029_kavya_for_m_008_dr_rajan_dentist_mumbai",
+  "payload": {
+    "merchant_id": "m_008_dr_rajan_dentist_mumbai"
+  },
+  "urgency": 3,
+  "suppression_key": "recall_due:m_008_dr_rajan_dentist_mumbai:gen_64",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

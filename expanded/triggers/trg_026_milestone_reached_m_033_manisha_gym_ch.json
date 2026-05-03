@@ -1,0 +1,14 @@
+{
+  "id": "trg_026_milestone_reached_m_033_manisha_gym_ch",
+  "scope": "merchant",
+  "kind": "milestone_reached",
+  "source": "internal",
+  "merchant_id": "m_033_manisha_gym_chandigarh",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_033_manisha_gym_chandigarh"
+  },
+  "urgency": 1,
+  "suppression_key": "milestone_reached:m_033_manisha_gym_chandigarh:gen_26",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

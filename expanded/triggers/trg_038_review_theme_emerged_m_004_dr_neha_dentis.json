@@ -1,0 +1,14 @@
+{
+  "id": "trg_038_review_theme_emerged_m_004_dr_neha_dentis",
+  "scope": "merchant",
+  "kind": "review_theme_emerged",
+  "source": "internal",
+  "merchant_id": "m_004_dr_neha_dentist_jaipur",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_004_dr_neha_dentist_jaipur"
+  },
+  "urgency": 3,
+  "suppression_key": "review_theme_emerged:m_004_dr_neha_dentist_jaipur:gen_38",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

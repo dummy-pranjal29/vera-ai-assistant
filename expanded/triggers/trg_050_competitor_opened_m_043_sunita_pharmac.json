@@ -1,0 +1,14 @@
+{
+  "id": "trg_050_competitor_opened_m_043_sunita_pharmac",
+  "scope": "merchant",
+  "kind": "competitor_opened",
+  "source": "external",
+  "merchant_id": "m_043_sunita_pharmacie_mumbai",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_043_sunita_pharmacie_mumbai"
+  },
+  "urgency": 2,
+  "suppression_key": "competitor_opened:m_043_sunita_pharmacie_mumbai:gen_50",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

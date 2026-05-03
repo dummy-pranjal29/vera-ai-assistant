@@ -1,0 +1,23 @@
+{
+  "customer_id": "c_143_ishaan_for_m_036_vivek_gym_bangalore",
+  "merchant_id": "m_036_vivek_gym_bangalore",
+  "identity": {
+    "name": "Ishaan",
+    "phone": "<redacted>",
+    "language_pref": "hi-en mix"
+  },
+  "relationship": {
+    "first_visit": "2025-09-01",
+    "last_visit": "2026-04-01",
+    "visits_total": 10,
+    "services_received": []
+  },
+  "state": "lapsed_soft",
+  "preferences": {},
+  "consent": {
+    "opted_in_at": "2025-09-01",
+    "scope": [
+      "promotional_offers"
+    ]
+  }
+}

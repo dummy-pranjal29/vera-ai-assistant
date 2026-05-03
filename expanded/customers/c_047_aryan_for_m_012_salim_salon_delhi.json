@@ -1,0 +1,23 @@
+{
+  "customer_id": "c_047_aryan_for_m_012_salim_salon_delhi",
+  "merchant_id": "m_012_salim_salon_delhi",
+  "identity": {
+    "name": "Aryan",
+    "phone": "<redacted>",
+    "language_pref": "en"
+  },
+  "relationship": {
+    "first_visit": "2025-09-01",
+    "last_visit": "2026-04-01",
+    "visits_total": 12,
+    "services_received": []
+  },
+  "state": "lapsed_hard",
+  "preferences": {},
+  "consent": {
+    "opted_in_at": "2025-09-01",
+    "scope": [
+      "promotional_offers"
+    ]
+  }
+}

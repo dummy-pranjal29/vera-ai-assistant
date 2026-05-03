@@ -1,0 +1,23 @@
+{
+  "customer_id": "c_135_diya_for_m_034_vivek_gym_delhi",
+  "merchant_id": "m_034_vivek_gym_delhi",
+  "identity": {
+    "name": "Diya",
+    "phone": "<redacted>",
+    "language_pref": "hi-en mix"
+  },
+  "relationship": {
+    "first_visit": "2025-09-01",
+    "last_visit": "2026-04-01",
+    "visits_total": 11,
+    "services_received": []
+  },
+  "state": "active",
+  "preferences": {},
+  "consent": {
+    "opted_in_at": "2025-09-01",
+    "scope": [
+      "promotional_offers"
+    ]
+  }
+}

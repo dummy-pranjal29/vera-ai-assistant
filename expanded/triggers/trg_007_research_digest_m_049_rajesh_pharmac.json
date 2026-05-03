@@ -1,0 +1,14 @@
+{
+  "id": "trg_007_research_digest_m_049_rajesh_pharmac",
+  "scope": "merchant",
+  "kind": "research_digest",
+  "source": "external",
+  "merchant_id": "m_049_rajesh_pharmacie_lucknow",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_049_rajesh_pharmacie_lucknow"
+  },
+  "urgency": 2,
+  "suppression_key": "research_digest:m_049_rajesh_pharmacie_lucknow:gen_7",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

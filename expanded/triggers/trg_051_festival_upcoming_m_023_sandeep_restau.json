@@ -1,0 +1,14 @@
+{
+  "id": "trg_051_festival_upcoming_m_023_sandeep_restau",
+  "scope": "merchant",
+  "kind": "festival_upcoming",
+  "source": "external",
+  "merchant_id": "m_023_sandeep_restaurant_chandigarh",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_023_sandeep_restaurant_chandigarh"
+  },
+  "urgency": 1,
+  "suppression_key": "festival_upcoming:m_023_sandeep_restaurant_chandigarh:gen_51",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

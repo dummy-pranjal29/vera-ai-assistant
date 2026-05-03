@@ -1,0 +1,14 @@
+{
+  "id": "trg_045_competitor_opened_m_022_sandeep_restau",
+  "scope": "merchant",
+  "kind": "competitor_opened",
+  "source": "external",
+  "merchant_id": "m_022_sandeep_restaurant_hyderabad",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_022_sandeep_restaurant_hyderabad"
+  },
+  "urgency": 2,
+  "suppression_key": "competitor_opened:m_022_sandeep_restaurant_hyderabad:gen_45",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

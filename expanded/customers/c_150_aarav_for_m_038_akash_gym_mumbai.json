@@ -1,0 +1,23 @@
+{
+  "customer_id": "c_150_aarav_for_m_038_akash_gym_mumbai",
+  "merchant_id": "m_038_akash_gym_mumbai",
+  "identity": {
+    "name": "Aarav",
+    "phone": "<redacted>",
+    "language_pref": "hi"
+  },
+  "relationship": {
+    "first_visit": "2025-09-01",
+    "last_visit": "2026-04-01",
+    "visits_total": 3,
+    "services_received": []
+  },
+  "state": "active",
+  "preferences": {},
+  "consent": {
+    "opted_in_at": "2025-09-01",
+    "scope": [
+      "promotional_offers"
+    ]
+  }
+}

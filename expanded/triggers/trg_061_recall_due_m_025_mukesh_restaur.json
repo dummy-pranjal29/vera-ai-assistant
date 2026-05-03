@@ -1,0 +1,14 @@
+{
+  "id": "trg_061_recall_due_m_025_mukesh_restaur",
+  "scope": "customer",
+  "kind": "recall_due",
+  "source": "internal",
+  "merchant_id": "m_025_mukesh_restaurant_chennai",
+  "customer_id": "c_099_aarav_for_m_025_mukesh_restaurant_chennai",
+  "payload": {
+    "merchant_id": "m_025_mukesh_restaurant_chennai"
+  },
+  "urgency": 3,
+  "suppression_key": "recall_due:m_025_mukesh_restaurant_chennai:gen_61",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

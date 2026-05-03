@@ -1,0 +1,14 @@
+{
+  "id": "trg_025_milestone_reached_m_005_dr_asha_dentis",
+  "scope": "merchant",
+  "kind": "milestone_reached",
+  "source": "internal",
+  "merchant_id": "m_005_dr_asha_dentist_chandigarh",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_005_dr_asha_dentist_chandigarh"
+  },
+  "urgency": 1,
+  "suppression_key": "milestone_reached:m_005_dr_asha_dentist_chandigarh:gen_25",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

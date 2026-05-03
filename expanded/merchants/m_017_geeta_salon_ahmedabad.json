@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_017_geeta_salon_ahmedabad",
+  "category_slug": "salons",
+  "identity": {
+    "name": "Glow Up Salon",
+    "city": "Ahmedabad",
+    "locality": "Satellite",
+    "place_id": "ChIJ_SATELLITE_SALONS_017",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Geeta"
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 221
+  },
+  "performance": {
+    "views_30d": 5819,
+    "calls_30d": 32,
+    "directions_30d": 92,
+    "ctr_30d": 0.049,
+    "views_7d_delta": -0.06,
+    "calls_7d_delta": -0.19
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 921,
+    "active_customers": 275,
+    "lapsed_customers": 166,
+    "retention_rate": 0.7,
+    "segments": {}
+  },
+  "signals": []
+}

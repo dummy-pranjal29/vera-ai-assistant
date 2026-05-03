@@ -1,0 +1,23 @@
+{
+  "customer_id": "c_161_ananya_for_m_041_akash_gym_delhi",
+  "merchant_id": "m_041_akash_gym_delhi",
+  "identity": {
+    "name": "Ananya",
+    "phone": "<redacted>",
+    "language_pref": "hi"
+  },
+  "relationship": {
+    "first_visit": "2025-09-01",
+    "last_visit": "2026-04-01",
+    "visits_total": 2,
+    "services_received": []
+  },
+  "state": "active",
+  "preferences": {},
+  "consent": {
+    "opted_in_at": "2025-09-01",
+    "scope": [
+      "promotional_offers"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_025_mukesh_restaurant_chennai",
+  "category_slug": "restaurants",
+  "identity": {
+    "name": "Pizza Spot",
+    "city": "Chennai",
+    "locality": "Mylapore",
+    "place_id": "ChIJ_MYLAPORE_RESTAURANTS_025",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Mukesh"
+  },
+  "subscription": {
+    "status": "expired",
+    "plan": "Pro",
+    "days_remaining": 0
+  },
+  "performance": {
+    "views_30d": 2598,
+    "calls_30d": 10,
+    "directions_30d": 26,
+    "ctr_30d": 0.023,
+    "views_7d_delta": 0.24,
+    "calls_7d_delta": 0.05
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 688,
+    "active_customers": 140,
+    "lapsed_customers": 432,
+    "retention_rate": 0.85,
+    "segments": {}
+  },
+  "signals": []
+}

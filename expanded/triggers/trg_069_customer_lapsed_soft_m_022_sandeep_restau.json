@@ -1,0 +1,14 @@
+{
+  "id": "trg_069_customer_lapsed_soft_m_022_sandeep_restau",
+  "scope": "customer",
+  "kind": "customer_lapsed_soft",
+  "source": "internal",
+  "merchant_id": "m_022_sandeep_restaurant_hyderabad",
+  "customer_id": "c_087_kavya_for_m_022_sandeep_restaurant_hyderabad",
+  "payload": {
+    "merchant_id": "m_022_sandeep_restaurant_hyderabad"
+  },
+  "urgency": 3,
+  "suppression_key": "customer_lapsed_soft:m_022_sandeep_restaurant_hyderabad:gen_69",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

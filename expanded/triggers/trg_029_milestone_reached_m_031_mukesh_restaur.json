@@ -1,0 +1,14 @@
+{
+  "id": "trg_029_milestone_reached_m_031_mukesh_restaur",
+  "scope": "merchant",
+  "kind": "milestone_reached",
+  "source": "internal",
+  "merchant_id": "m_031_mukesh_restaurant_pune",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_031_mukesh_restaurant_pune"
+  },
+  "urgency": 1,
+  "suppression_key": "milestone_reached:m_031_mukesh_restaurant_pune:gen_29",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

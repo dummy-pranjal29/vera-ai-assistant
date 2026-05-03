@@ -1,0 +1,23 @@
+{
+  "customer_id": "c_005_vivaan_for_m_002_dr_sameer_dentist_bangalore",
+  "merchant_id": "m_002_dr_sameer_dentist_bangalore",
+  "identity": {
+    "name": "Vivaan",
+    "phone": "<redacted>",
+    "language_pref": "en"
+  },
+  "relationship": {
+    "first_visit": "2025-09-01",
+    "last_visit": "2026-04-01",
+    "visits_total": 5,
+    "services_received": []
+  },
+  "state": "new",
+  "preferences": {},
+  "consent": {
+    "opted_in_at": "2025-09-01",
+    "scope": [
+      "promotional_offers"
+    ]
+  }
+}

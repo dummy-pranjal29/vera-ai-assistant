@@ -1,0 +1,23 @@
+{
+  "customer_id": "c_030_aryan_for_m_008_dr_rajan_dentist_mumbai",
+  "merchant_id": "m_008_dr_rajan_dentist_mumbai",
+  "identity": {
+    "name": "Aryan",
+    "phone": "<redacted>",
+    "language_pref": "hi-en mix"
+  },
+  "relationship": {
+    "first_visit": "2025-09-01",
+    "last_visit": "2026-04-01",
+    "visits_total": 4,
+    "services_received": []
+  },
+  "state": "active",
+  "preferences": {},
+  "consent": {
+    "opted_in_at": "2025-09-01",
+    "scope": [
+      "promotional_offers"
+    ]
+  }
+}

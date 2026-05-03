@@ -1,0 +1,14 @@
+{
+  "id": "trg_039_review_theme_emerged_m_023_sandeep_restau",
+  "scope": "merchant",
+  "kind": "review_theme_emerged",
+  "source": "internal",
+  "merchant_id": "m_023_sandeep_restaurant_chandigarh",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_023_sandeep_restaurant_chandigarh"
+  },
+  "urgency": 3,
+  "suppression_key": "review_theme_emerged:m_023_sandeep_restaurant_chandigarh:gen_39",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

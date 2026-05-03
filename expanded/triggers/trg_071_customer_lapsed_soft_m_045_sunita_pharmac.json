@@ -1,0 +1,14 @@
+{
+  "id": "trg_071_customer_lapsed_soft_m_045_sunita_pharmac",
+  "scope": "customer",
+  "kind": "customer_lapsed_soft",
+  "source": "internal",
+  "merchant_id": "m_045_sunita_pharmacie_chennai",
+  "customer_id": "c_178_reyansh_for_m_045_sunita_pharmacie_chennai",
+  "payload": {
+    "merchant_id": "m_045_sunita_pharmacie_chennai"
+  },
+  "urgency": 3,
+  "suppression_key": "customer_lapsed_soft:m_045_sunita_pharmacie_chennai:gen_71",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

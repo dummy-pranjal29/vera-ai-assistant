@@ -1,0 +1,14 @@
+{
+  "id": "trg_018_perf_spike_m_015_paras_salon_ba",
+  "scope": "merchant",
+  "kind": "perf_spike",
+  "source": "internal",
+  "merchant_id": "m_015_paras_salon_bangalore",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_015_paras_salon_bangalore"
+  },
+  "urgency": 1,
+  "suppression_key": "perf_spike:m_015_paras_salon_bangalore:gen_18",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

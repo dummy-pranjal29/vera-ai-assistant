@@ -1,0 +1,14 @@
+{
+  "id": "trg_013_perf_dip_m_008_dr_rajan_denti",
+  "scope": "merchant",
+  "kind": "perf_dip",
+  "source": "internal",
+  "merchant_id": "m_008_dr_rajan_dentist_mumbai",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_008_dr_rajan_dentist_mumbai"
+  },
+  "urgency": 3,
+  "suppression_key": "perf_dip:m_008_dr_rajan_dentist_mumbai:gen_13",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

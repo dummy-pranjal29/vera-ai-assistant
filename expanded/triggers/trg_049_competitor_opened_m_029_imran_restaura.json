@@ -1,0 +1,14 @@
+{
+  "id": "trg_049_competitor_opened_m_029_imran_restaura",
+  "scope": "merchant",
+  "kind": "competitor_opened",
+  "source": "external",
+  "merchant_id": "m_029_imran_restaurant_bangalore",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_029_imran_restaurant_bangalore"
+  },
+  "urgency": 2,
+  "suppression_key": "competitor_opened:m_029_imran_restaurant_bangalore:gen_49",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

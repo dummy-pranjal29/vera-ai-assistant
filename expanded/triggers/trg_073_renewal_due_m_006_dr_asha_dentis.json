@@ -1,0 +1,14 @@
+{
+  "id": "trg_073_renewal_due_m_006_dr_asha_dentis",
+  "scope": "merchant",
+  "kind": "renewal_due",
+  "source": "internal",
+  "merchant_id": "m_006_dr_asha_dentist_chennai",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_006_dr_asha_dentist_chennai"
+  },
+  "urgency": 4,
+  "suppression_key": "renewal_due:m_006_dr_asha_dentist_chennai:gen_73",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

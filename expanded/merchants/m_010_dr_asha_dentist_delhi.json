@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_010_dr_asha_dentist_delhi",
+  "category_slug": "dentists",
+  "identity": {
+    "name": "Asha Dental Care",
+    "city": "Delhi",
+    "locality": "Connaught Place",
+    "place_id": "ChIJ_CONNAUGHT_PLACE_DENTISTS_010",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Dr. Asha"
+  },
+  "subscription": {
+    "status": "trial",
+    "plan": "Trial",
+    "days_remaining": 12
+  },
+  "performance": {
+    "views_30d": 4818,
+    "calls_30d": 9,
+    "directions_30d": 46,
+    "ctr_30d": 0.025,
+    "views_7d_delta": -0.2,
+    "calls_7d_delta": -0.3
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 1757,
+    "active_customers": 58,
+    "lapsed_customers": 169,
+    "retention_rate": 0.7,
+    "segments": {}
+  },
+  "signals": []
+}

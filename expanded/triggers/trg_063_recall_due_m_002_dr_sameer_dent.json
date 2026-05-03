@@ -1,0 +1,14 @@
+{
+  "id": "trg_063_recall_due_m_002_dr_sameer_dent",
+  "scope": "customer",
+  "kind": "recall_due",
+  "source": "internal",
+  "merchant_id": "m_002_dr_sameer_dentist_bangalore",
+  "customer_id": "c_007_ananya_for_m_002_dr_sameer_dentist_bangalore",
+  "payload": {
+    "merchant_id": "m_002_dr_sameer_dentist_bangalore"
+  },
+  "urgency": 3,
+  "suppression_key": "recall_due:m_002_dr_sameer_dentist_bangalore:gen_63",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

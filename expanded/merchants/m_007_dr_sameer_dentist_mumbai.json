@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_007_dr_sameer_dentist_mumbai",
+  "category_slug": "dentists",
+  "identity": {
+    "name": "Bright Smile Dental",
+    "city": "Mumbai",
+    "locality": "Borivali",
+    "place_id": "ChIJ_BORIVALI_DENTISTS_007",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Dr. Sameer"
+  },
+  "subscription": {
+    "status": "trial",
+    "plan": "Trial",
+    "days_remaining": 11
+  },
+  "performance": {
+    "views_30d": 1039,
+    "calls_30d": 2,
+    "directions_30d": 21,
+    "ctr_30d": 0.024,
+    "views_7d_delta": -0.11,
+    "calls_7d_delta": 0.16
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 1794,
+    "active_customers": 952,
+    "lapsed_customers": 111,
+    "retention_rate": 0.82,
+    "segments": {}
+  },
+  "signals": []
+}

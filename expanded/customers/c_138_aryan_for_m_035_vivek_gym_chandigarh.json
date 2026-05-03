@@ -1,0 +1,23 @@
+{
+  "customer_id": "c_138_aryan_for_m_035_vivek_gym_chandigarh",
+  "merchant_id": "m_035_vivek_gym_chandigarh",
+  "identity": {
+    "name": "Aryan",
+    "phone": "<redacted>",
+    "language_pref": "en"
+  },
+  "relationship": {
+    "first_visit": "2025-09-01",
+    "last_visit": "2026-04-01",
+    "visits_total": 9,
+    "services_received": []
+  },
+  "state": "churned",
+  "preferences": {},
+  "consent": {
+    "opted_in_at": "2025-09-01",
+    "scope": [
+      "promotional_offers"
+    ]
+  }
+}

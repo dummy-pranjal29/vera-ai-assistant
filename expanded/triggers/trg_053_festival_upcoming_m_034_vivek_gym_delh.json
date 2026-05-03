@@ -1,0 +1,14 @@
+{
+  "id": "trg_053_festival_upcoming_m_034_vivek_gym_delh",
+  "scope": "merchant",
+  "kind": "festival_upcoming",
+  "source": "external",
+  "merchant_id": "m_034_vivek_gym_delhi",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_034_vivek_gym_delhi"
+  },
+  "urgency": 1,
+  "suppression_key": "festival_upcoming:m_034_vivek_gym_delhi:gen_53",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

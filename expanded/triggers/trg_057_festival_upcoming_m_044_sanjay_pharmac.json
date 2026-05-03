@@ -1,0 +1,14 @@
+{
+  "id": "trg_057_festival_upcoming_m_044_sanjay_pharmac",
+  "scope": "merchant",
+  "kind": "festival_upcoming",
+  "source": "external",
+  "merchant_id": "m_044_sanjay_pharmacie_mumbai",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_044_sanjay_pharmacie_mumbai"
+  },
+  "urgency": 1,
+  "suppression_key": "festival_upcoming:m_044_sanjay_pharmacie_mumbai:gen_57",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "trg_031_dormant_with_vera_m_016_karim_salon_ch",
+  "scope": "merchant",
+  "kind": "dormant_with_vera",
+  "source": "internal",
+  "merchant_id": "m_016_karim_salon_chandigarh",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_016_karim_salon_chandigarh"
+  },
+  "urgency": 2,
+  "suppression_key": "dormant_with_vera:m_016_karim_salon_chandigarh:gen_31",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

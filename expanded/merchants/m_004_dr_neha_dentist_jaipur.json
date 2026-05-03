@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_004_dr_neha_dentist_jaipur",
+  "category_slug": "dentists",
+  "identity": {
+    "name": "Pearl Dental Studio",
+    "city": "Jaipur",
+    "locality": "C-Scheme",
+    "place_id": "ChIJ_C-SCHEME_DENTISTS_004",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Dr. Neha"
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 102
+  },
+  "performance": {
+    "views_30d": 3223,
+    "calls_30d": 39,
+    "directions_30d": 89,
+    "ctr_30d": 0.017,
+    "views_7d_delta": -0.28,
+    "calls_7d_delta": 0.07
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 184,
+    "active_customers": 778,
+    "lapsed_customers": 445,
+    "retention_rate": 0.85,
+    "segments": {}
+  },
+  "signals": []
+}

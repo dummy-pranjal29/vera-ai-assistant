@@ -1,0 +1,14 @@
+{
+  "id": "trg_078_renewal_due_m_001_drmeera_dentis",
+  "scope": "merchant",
+  "kind": "renewal_due",
+  "source": "internal",
+  "merchant_id": "m_001_drmeera_dentist_delhi",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_001_drmeera_dentist_delhi"
+  },
+  "urgency": 4,
+  "suppression_key": "renewal_due:m_001_drmeera_dentist_delhi:gen_78",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

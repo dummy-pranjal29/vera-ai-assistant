@@ -1,0 +1,14 @@
+{
+  "id": "trg_070_customer_lapsed_soft_m_027_ravi_restauran",
+  "scope": "customer",
+  "kind": "customer_lapsed_soft",
+  "source": "internal",
+  "merchant_id": "m_027_ravi_restaurant_hyderabad",
+  "customer_id": "c_106_tara_for_m_027_ravi_restaurant_hyderabad",
+  "payload": {
+    "merchant_id": "m_027_ravi_restaurant_hyderabad"
+  },
+  "urgency": 3,
+  "suppression_key": "customer_lapsed_soft:m_027_ravi_restaurant_hyderabad:gen_70",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

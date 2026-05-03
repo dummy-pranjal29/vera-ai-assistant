@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_051_vinod_pharmacie_chandigarh",
+  "category_slug": "pharmacies",
+  "identity": {
+    "name": "Family Health Pharmacy",
+    "city": "Chandigarh",
+    "locality": "Sector 9",
+    "place_id": "ChIJ_SECTOR_9_PHARMACIES_051",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Vinod"
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 111
+  },
+  "performance": {
+    "views_30d": 5381,
+    "calls_30d": 20,
+    "directions_30d": 56,
+    "ctr_30d": 0.032,
+    "views_7d_delta": -0.11,
+    "calls_7d_delta": -0.28
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 1490,
+    "active_customers": 1472,
+    "lapsed_customers": 138,
+    "retention_rate": 0.7,
+    "segments": {}
+  },
+  "signals": []
+}

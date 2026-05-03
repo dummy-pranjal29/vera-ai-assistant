@@ -1,0 +1,89 @@
+{
+  "merchant_id": "m_001_drmeera_dentist_delhi",
+  "identity": {
+    "name": "Dr. Meera's Dental Clinic",
+    "owner_name": "Dr. Meera Sharma",
+    "place_id": "ChIJN1blFLsC3ogRfj84Ka6i4Aw",
+    "locality": "Lajpat Nagar",
+    "city": "Delhi",
+    "verified": true,
+    "languages": [
+      "hi",
+      "en"
+    ]
+  },
+  "subscription": {
+    "status": "active",
+    "days_remaining": 82,
+    "plan": "Pro"
+  },
+  "performance": {
+    "views_30d": 2410,
+    "calls_30d": 18,
+    "directions_30d": 45,
+    "ctr_30d": 0.021,
+    "views_7d_delta": 0.12,
+    "calls_7d_delta": -0.08
+  },
+  "offers": [
+    {
+      "service": "Dental Cleaning",
+      "price": "₹299",
+      "status": "active",
+      "created_date": "2026-02-15",
+      "expiry_date": null
+    },
+    {
+      "service": "Deep Cleaning",
+      "price": "₹499",
+      "status": "expired",
+      "created_date": "2025-12-01",
+      "expiry_date": "2026-02-01"
+    }
+  ],
+  "conversation_history": {
+    "turns": [
+      {
+        "role": "vera",
+        "message": "Hi Dr. Meera, your profile is looking good. Have you considered adding more photos?",
+        "timestamp": "2026-04-24T10:00:00Z"
+      },
+      {
+        "role": "merchant",
+        "message": "Thanks for the suggestion. I'll add more photos soon.",
+        "timestamp": "2026-04-24T10:15:00Z"
+      }
+    ],
+    "last_merchant_reply": "Thanks for the suggestion. I'll add more photos soon.",
+    "last_vera_message": "Hi Dr. Meera, your profile is looking good. Have you considered adding more photos?",
+    "engagement_score": 0.75
+  },
+  "customer_aggregate": {
+    "total_customers": 540,
+    "active_customers": 412,
+    "lapsed_customers": 78,
+    "retention_rate": 0.76,
+    "segments": {
+      "high_risk_adults": 124,
+      "pediatric": 89,
+      "cosmetic_focused": 156
+    }
+  },
+  "signals": [
+    {
+      "signal_type": "stale_posts",
+      "value": 22,
+      "detected_at": "2026-04-26T08:00:00Z"
+    },
+    {
+      "signal_type": "ctr_below_peer",
+      "value": 0.021,
+      "detected_at": "2026-04-26T08:00:00Z"
+    },
+    {
+      "signal_type": "high_risk_adult_cohort",
+      "value": 124,
+      "detected_at": "2026-04-26T08:00:00Z"
+    }
+  ]
+}

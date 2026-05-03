@@ -62,28 +62,30 @@ class ContextStore:
         }
 
     def _build_category(self, data: Dict[str, Any]) -> CategoryContext:
+        voice_data = data["voice"]
         voice = VoiceProfile(
-            tone=data["voice"]["tone"],
-            allowed_vocab=data["voice"]["allowed_vocab"],
-            taboos=data["voice"]["taboos"],
-            formality=data["voice"]["formality"],
-            language_preference=data["voice"]["language_preference"]
+            tone=voice_data["tone"],
+            allowed_vocab=voice_data.get("allowed_vocab") or voice_data.get("vocab_allowed", []),
+            taboos=voice_data.get("taboos") or voice_data.get("vocab_taboo", []),
+            formality=voice_data.get("formality", "casual"),
+            language_preference=voice_data.get("language_preference", "en")
         )
 
         offers = [
             OfferTemplate(
-                service=o["service"],
-                price_range=o["price_range"],
+                service=o.get("service") or o.get("title", ""),
+                price_range=o.get("price_range") or o.get("value", ""),
                 typical_duration=o.get("typical_duration")
             )
             for o in data["offer_catalog"]
         ]
 
+        peer_data = data["peer_stats"]
         peer_stats = PeerStats(
-            avg_rating=data["peer_stats"]["avg_rating"],
-            avg_reviews=data["peer_stats"]["avg_reviews"],
-            avg_ctr=data["peer_stats"]["avg_ctr"],
-            locality=data["peer_stats"]["locality"]
+            avg_rating=peer_data.get("avg_rating", 4.0),
+            avg_reviews=peer_data.get("avg_reviews") or peer_data.get("avg_review_count", 0),
+            avg_ctr=peer_data.get("avg_ctr", 0.03),
+            locality=peer_data.get("locality") or peer_data.get("scope", "")
         )
 
         digest = [
@@ -91,19 +93,19 @@ class ContextStore:
                 title=d["title"],
                 source=d["source"],
                 summary=d["summary"],
-                relevance=d["relevance"],
-                published_date=d["published_date"]
+                relevance=d.get("relevance") or d.get("actionable", ""),
+                published_date=d.get("published_date") or d.get("date", "")
             )
-            for d in data["digest"]
+            for d in data.get("digest", [])
         ]
 
         seasonal = [
             SeasonalBeat(
-                months=s["months"],
-                pattern=s["pattern"],
-                opportunity=s["opportunity"]
+                months=s.get("months") or s.get("month_range", ""),
+                pattern=s.get("pattern") or s.get("note", ""),
+                opportunity=s.get("opportunity", "")
             )
-            for s in data["seasonal_beats"]
+            for s in data.get("seasonal_beats", [])
         ]
 
         return CategoryContext(

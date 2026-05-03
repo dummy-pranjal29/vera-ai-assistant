@@ -1,0 +1,14 @@
+{
+  "id": "trg_075_renewal_due_m_035_vivek_gym_chan",
+  "scope": "merchant",
+  "kind": "renewal_due",
+  "source": "internal",
+  "merchant_id": "m_035_vivek_gym_chandigarh",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_035_vivek_gym_chandigarh"
+  },
+  "urgency": 4,
+  "suppression_key": "renewal_due:m_035_vivek_gym_chandigarh:gen_75",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

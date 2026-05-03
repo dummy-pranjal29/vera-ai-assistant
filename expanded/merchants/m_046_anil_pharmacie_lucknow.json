@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_046_anil_pharmacie_lucknow",
+  "category_slug": "pharmacies",
+  "identity": {
+    "name": "Healthwell Pharmacy",
+    "city": "Lucknow",
+    "locality": "Alambagh",
+    "place_id": "ChIJ_ALAMBAGH_PHARMACIES_046",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Anil"
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 55
+  },
+  "performance": {
+    "views_30d": 3643,
+    "calls_30d": 43,
+    "directions_30d": 109,
+    "ctr_30d": 0.042,
+    "views_7d_delta": -0.19,
+    "calls_7d_delta": 0.18
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 529,
+    "active_customers": 1230,
+    "lapsed_customers": 85,
+    "retention_rate": 0.81,
+    "segments": {}
+  },
+  "signals": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "trg_068_customer_lapsed_soft_m_033_manisha_gym_ch",
+  "scope": "customer",
+  "kind": "customer_lapsed_soft",
+  "source": "internal",
+  "merchant_id": "m_033_manisha_gym_chandigarh",
+  "customer_id": "c_129_vihaan_for_m_033_manisha_gym_chandigarh",
+  "payload": {
+    "merchant_id": "m_033_manisha_gym_chandigarh"
+  },
+  "urgency": 3,
+  "suppression_key": "customer_lapsed_soft:m_033_manisha_gym_chandigarh:gen_68",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

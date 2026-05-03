@@ -1,0 +1,79 @@
+{
+  "slug": "restaurants",
+  "voice": {
+    "tone": "friendly-professional",
+    "allowed_vocab": [
+      "cuisine",
+      "menu",
+      "dining",
+      "reservation",
+      "ambiance",
+      "chef special",
+      "seasonal"
+    ],
+    "taboos": [
+      "guaranteed best",
+      "world's finest",
+      "never disappoints",
+      "perfect every time"
+    ],
+    "formality": "casual-formal",
+    "language_preference": "en"
+  },
+  "offer_catalog": [
+    {
+      "service": "Lunch Buffet",
+      "price_range": "₹199",
+      "typical_duration": "1 hour"
+    },
+    {
+      "service": "Family Dinner Package",
+      "price_range": "₹999",
+      "typical_duration": "2 hours"
+    },
+    {
+      "service": "Chef's Special Thali",
+      "price_range": "₹299",
+      "typical_duration": "45 min"
+    },
+    {
+      "service": "Weekend Brunch",
+      "price_range": "₹499",
+      "typical_duration": "1.5 hours"
+    }
+  ],
+  "peer_stats": {
+    "avg_rating": 4.2,
+    "avg_reviews": 85,
+    "avg_ctr": 0.035,
+    "locality": "Central Delhi"
+  },
+  "digest": [
+    {
+      "title": "Farm-to-table movement increases customer satisfaction by 42%",
+      "source": "Restaurant India Magazine Nov 2026, p.22",
+      "summary": "Study of 1,500 restaurants shows locally-sourced ingredients significantly boost customer ratings and repeat visits",
+      "relevance": "Quality-focused restaurants, sustainability messaging",
+      "published_date": "2026-04-25"
+    },
+    {
+      "title": "Digital menu boards increase order value by 28%",
+      "source": "Hospitality Tech Report 2026-05",
+      "summary": "Interactive digital menus with photos lead to higher average ticket sizes and faster ordering",
+      "relevance": "Modern restaurant operations, tech adoption",
+      "published_date": "2026-04-20"
+    }
+  ],
+  "seasonal_beats": [
+    {
+      "months": "Oct-Dec",
+      "pattern": "Festival season drives 45% increase in family dining bookings",
+      "opportunity": "Promote family packages and festive special menus"
+    },
+    {
+      "months": "Jun-Aug",
+      "pattern": "Monsoon comfort food demand peaks",
+      "opportunity": "Highlight hot beverages and comfort food specials"
+    }
+  ]
+}

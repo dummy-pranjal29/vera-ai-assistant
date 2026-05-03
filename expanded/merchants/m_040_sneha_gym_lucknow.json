@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_040_sneha_gym_lucknow",
+  "category_slug": "gyms",
+  "identity": {
+    "name": "Pulse Studio",
+    "city": "Lucknow",
+    "locality": "Aashiana",
+    "place_id": "ChIJ_AASHIANA_GYMS_040",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Sneha"
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 204
+  },
+  "performance": {
+    "views_30d": 1127,
+    "calls_30d": 13,
+    "directions_30d": 31,
+    "ctr_30d": 0.047,
+    "views_7d_delta": 0.24,
+    "calls_7d_delta": 0.21
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 861,
+    "active_customers": 1080,
+    "lapsed_customers": 472,
+    "retention_rate": 0.55,
+    "segments": {}
+  },
+  "signals": []
+}

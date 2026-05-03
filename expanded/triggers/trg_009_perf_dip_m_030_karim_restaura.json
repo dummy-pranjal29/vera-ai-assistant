@@ -1,0 +1,14 @@
+{
+  "id": "trg_009_perf_dip_m_030_karim_restaura",
+  "scope": "merchant",
+  "kind": "perf_dip",
+  "source": "internal",
+  "merchant_id": "m_030_karim_restaurant_bangalore",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_030_karim_restaurant_bangalore"
+  },
+  "urgency": 3,
+  "suppression_key": "perf_dip:m_030_karim_restaurant_bangalore:gen_9",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

@@ -1,0 +1,23 @@
+{
+  "customer_id": "c_197_saanvi_for_m_050_sanjay_pharmacie_ahmedabad",
+  "merchant_id": "m_050_sanjay_pharmacie_ahmedabad",
+  "identity": {
+    "name": "Saanvi",
+    "phone": "<redacted>",
+    "language_pref": "hi-en mix"
+  },
+  "relationship": {
+    "first_visit": "2025-09-01",
+    "last_visit": "2026-04-01",
+    "visits_total": 2,
+    "services_received": []
+  },
+  "state": "active",
+  "preferences": {},
+  "consent": {
+    "opted_in_at": "2025-09-01",
+    "scope": [
+      "promotional_offers"
+    ]
+  }
+}

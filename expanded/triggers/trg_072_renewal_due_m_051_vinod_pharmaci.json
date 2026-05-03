@@ -1,0 +1,14 @@
+{
+  "id": "trg_072_renewal_due_m_051_vinod_pharmaci",
+  "scope": "merchant",
+  "kind": "renewal_due",
+  "source": "internal",
+  "merchant_id": "m_051_vinod_pharmacie_chandigarh",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_051_vinod_pharmacie_chandigarh"
+  },
+  "urgency": 4,
+  "suppression_key": "renewal_due:m_051_vinod_pharmacie_chandigarh:gen_72",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

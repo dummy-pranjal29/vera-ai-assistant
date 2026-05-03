@@ -1,0 +1,14 @@
+{
+  "id": "trg_023_milestone_reached_m_050_sanjay_pharmac",
+  "scope": "merchant",
+  "kind": "milestone_reached",
+  "source": "internal",
+  "merchant_id": "m_050_sanjay_pharmacie_ahmedabad",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_050_sanjay_pharmacie_ahmedabad"
+  },
+  "urgency": 1,
+  "suppression_key": "milestone_reached:m_050_sanjay_pharmacie_ahmedabad:gen_23",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

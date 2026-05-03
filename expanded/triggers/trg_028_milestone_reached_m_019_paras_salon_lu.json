@@ -1,0 +1,14 @@
+{
+  "id": "trg_028_milestone_reached_m_019_paras_salon_lu",
+  "scope": "merchant",
+  "kind": "milestone_reached",
+  "source": "internal",
+  "merchant_id": "m_019_paras_salon_lucknow",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_019_paras_salon_lucknow"
+  },
+  "urgency": 1,
+  "suppression_key": "milestone_reached:m_019_paras_salon_lucknow:gen_28",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

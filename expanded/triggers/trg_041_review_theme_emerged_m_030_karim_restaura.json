@@ -1,0 +1,14 @@
+{
+  "id": "trg_041_review_theme_emerged_m_030_karim_restaura",
+  "scope": "merchant",
+  "kind": "review_theme_emerged",
+  "source": "internal",
+  "merchant_id": "m_030_karim_restaurant_bangalore",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_030_karim_restaurant_bangalore"
+  },
+  "urgency": 3,
+  "suppression_key": "review_theme_emerged:m_030_karim_restaurant_bangalore:gen_41",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

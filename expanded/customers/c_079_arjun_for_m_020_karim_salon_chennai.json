@@ -1,0 +1,23 @@
+{
+  "customer_id": "c_079_arjun_for_m_020_karim_salon_chennai",
+  "merchant_id": "m_020_karim_salon_chennai",
+  "identity": {
+    "name": "Arjun",
+    "phone": "<redacted>",
+    "language_pref": "en"
+  },
+  "relationship": {
+    "first_visit": "2025-09-01",
+    "last_visit": "2026-04-01",
+    "visits_total": 12,
+    "services_received": []
+  },
+  "state": "lapsed_soft",
+  "preferences": {},
+  "consent": {
+    "opted_in_at": "2025-09-01",
+    "scope": [
+      "promotional_offers"
+    ]
+  }
+}

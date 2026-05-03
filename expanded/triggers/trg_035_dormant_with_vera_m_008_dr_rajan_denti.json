@@ -1,0 +1,14 @@
+{
+  "id": "trg_035_dormant_with_vera_m_008_dr_rajan_denti",
+  "scope": "merchant",
+  "kind": "dormant_with_vera",
+  "source": "internal",
+  "merchant_id": "m_008_dr_rajan_dentist_mumbai",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_008_dr_rajan_dentist_mumbai"
+  },
+  "urgency": 2,
+  "suppression_key": "dormant_with_vera:m_008_dr_rajan_dentist_mumbai:gen_35",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

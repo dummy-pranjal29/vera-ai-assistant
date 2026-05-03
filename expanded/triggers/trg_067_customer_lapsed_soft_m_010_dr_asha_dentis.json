@@ -1,0 +1,14 @@
+{
+  "id": "trg_067_customer_lapsed_soft_m_010_dr_asha_dentis",
+  "scope": "customer",
+  "kind": "customer_lapsed_soft",
+  "source": "internal",
+  "merchant_id": "m_010_dr_asha_dentist_delhi",
+  "customer_id": "c_040_anika_for_m_010_dr_asha_dentist_delhi",
+  "payload": {
+    "merchant_id": "m_010_dr_asha_dentist_delhi"
+  },
+  "urgency": 3,
+  "suppression_key": "customer_lapsed_soft:m_010_dr_asha_dentist_delhi:gen_67",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

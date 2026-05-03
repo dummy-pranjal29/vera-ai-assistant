@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_022_sandeep_restaurant_hyderabad",
+  "category_slug": "restaurants",
+  "identity": {
+    "name": "Tandoor Treats",
+    "city": "Hyderabad",
+    "locality": "Kukatpally",
+    "place_id": "ChIJ_KUKATPALLY_RESTAURANTS_022",
+    "verified": false,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Sandeep"
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 288
+  },
+  "performance": {
+    "views_30d": 1509,
+    "calls_30d": 2,
+    "directions_30d": 7,
+    "ctr_30d": 0.047,
+    "views_7d_delta": -0.01,
+    "calls_7d_delta": -0.23
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 325,
+    "active_customers": 1325,
+    "lapsed_customers": 283,
+    "retention_rate": 0.6,
+    "segments": {}
+  },
+  "signals": []
+}

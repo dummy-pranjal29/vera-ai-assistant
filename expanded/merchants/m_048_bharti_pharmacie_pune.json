@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_048_bharti_pharmacie_pune",
+  "category_slug": "pharmacies",
+  "identity": {
+    "name": "Wellness Cart",
+    "city": "Pune",
+    "locality": "Aundh",
+    "place_id": "ChIJ_AUNDH_PHARMACIES_048",
+    "verified": false,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Bharti"
+  },
+  "subscription": {
+    "status": "expired",
+    "plan": "Pro",
+    "days_remaining": 0
+  },
+  "performance": {
+    "views_30d": 4759,
+    "calls_30d": 12,
+    "directions_30d": 40,
+    "ctr_30d": 0.052,
+    "views_7d_delta": 0.06,
+    "calls_7d_delta": -0.22
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 537,
+    "active_customers": 950,
+    "lapsed_customers": 206,
+    "retention_rate": 0.73,
+    "segments": {}
+  },
+  "signals": []
+}

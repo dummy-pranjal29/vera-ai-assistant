@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_005_dr_asha_dentist_chandigarh",
+  "category_slug": "dentists",
+  "identity": {
+    "name": "Asha Dental Care",
+    "city": "Chandigarh",
+    "locality": "Sector 17",
+    "place_id": "ChIJ_SECTOR_17_DENTISTS_005",
+    "verified": false,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Dr. Asha"
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 97
+  },
+  "performance": {
+    "views_30d": 3722,
+    "calls_30d": 33,
+    "directions_30d": 96,
+    "ctr_30d": 0.029,
+    "views_7d_delta": 0.22,
+    "calls_7d_delta": 0.2
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 1045,
+    "active_customers": 318,
+    "lapsed_customers": 487,
+    "retention_rate": 0.53,
+    "segments": {}
+  },
+  "signals": []
+}

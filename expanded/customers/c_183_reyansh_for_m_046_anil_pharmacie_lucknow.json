@@ -1,0 +1,23 @@
+{
+  "customer_id": "c_183_reyansh_for_m_046_anil_pharmacie_lucknow",
+  "merchant_id": "m_046_anil_pharmacie_lucknow",
+  "identity": {
+    "name": "Reyansh",
+    "phone": "<redacted>",
+    "language_pref": "hi"
+  },
+  "relationship": {
+    "first_visit": "2025-09-01",
+    "last_visit": "2026-04-01",
+    "visits_total": 12,
+    "services_received": []
+  },
+  "state": "active",
+  "preferences": {},
+  "consent": {
+    "opted_in_at": "2025-09-01",
+    "scope": [
+      "promotional_offers"
+    ]
+  }
+}

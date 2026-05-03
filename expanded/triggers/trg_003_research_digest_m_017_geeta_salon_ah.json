@@ -1,0 +1,14 @@
+{
+  "id": "trg_003_research_digest_m_017_geeta_salon_ah",
+  "scope": "merchant",
+  "kind": "research_digest",
+  "source": "external",
+  "merchant_id": "m_017_geeta_salon_ahmedabad",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_017_geeta_salon_ahmedabad"
+  },
+  "urgency": 2,
+  "suppression_key": "research_digest:m_017_geeta_salon_ahmedabad:gen_3",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

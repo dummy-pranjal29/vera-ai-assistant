@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_034_vivek_gym_delhi",
+  "category_slug": "gyms",
+  "identity": {
+    "name": "Strength Co.",
+    "city": "Delhi",
+    "locality": "Lajpat Nagar",
+    "place_id": "ChIJ_LAJPAT_NAGAR_GYMS_034",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Vivek"
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 112
+  },
+  "performance": {
+    "views_30d": 5383,
+    "calls_30d": 54,
+    "directions_30d": 110,
+    "ctr_30d": 0.049,
+    "views_7d_delta": 0.07,
+    "calls_7d_delta": 0.08
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 1184,
+    "active_customers": 228,
+    "lapsed_customers": 287,
+    "retention_rate": 0.53,
+    "segments": {}
+  },
+  "signals": []
+}

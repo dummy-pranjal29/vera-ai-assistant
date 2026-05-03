@@ -1,0 +1,14 @@
+{
+  "id": "trg_062_recall_due_m_021_renu_salon_mum",
+  "scope": "customer",
+  "kind": "recall_due",
+  "source": "internal",
+  "merchant_id": "m_021_renu_salon_mumbai",
+  "customer_id": "c_084_aryan_for_m_021_renu_salon_mumbai",
+  "payload": {
+    "merchant_id": "m_021_renu_salon_mumbai"
+  },
+  "urgency": 3,
+  "suppression_key": "recall_due:m_021_renu_salon_mumbai:gen_62",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

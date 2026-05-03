@@ -1,0 +1,14 @@
+{
+  "id": "trg_077_renewal_due_m_040_sneha_gym_luck",
+  "scope": "merchant",
+  "kind": "renewal_due",
+  "source": "internal",
+  "merchant_id": "m_040_sneha_gym_lucknow",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_040_sneha_gym_lucknow"
+  },
+  "urgency": 4,
+  "suppression_key": "renewal_due:m_040_sneha_gym_lucknow:gen_77",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

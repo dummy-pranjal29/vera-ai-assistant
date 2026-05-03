@@ -1,0 +1,14 @@
+{
+  "id": "trg_052_festival_upcoming_m_021_renu_salon_mum",
+  "scope": "merchant",
+  "kind": "festival_upcoming",
+  "source": "external",
+  "merchant_id": "m_021_renu_salon_mumbai",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_021_renu_salon_mumbai"
+  },
+  "urgency": 1,
+  "suppression_key": "festival_upcoming:m_021_renu_salon_mumbai:gen_52",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

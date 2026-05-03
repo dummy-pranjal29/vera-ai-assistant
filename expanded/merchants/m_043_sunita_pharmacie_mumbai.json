@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_043_sunita_pharmacie_mumbai",
+  "category_slug": "pharmacies",
+  "identity": {
+    "name": "Reliable Medicos",
+    "city": "Mumbai",
+    "locality": "Borivali",
+    "place_id": "ChIJ_BORIVALI_PHARMACIES_043",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Sunita"
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 241
+  },
+  "performance": {
+    "views_30d": 5334,
+    "calls_30d": 55,
+    "directions_30d": 117,
+    "ctr_30d": 0.02,
+    "views_7d_delta": 0.24,
+    "calls_7d_delta": 0.02
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 447,
+    "active_customers": 991,
+    "lapsed_customers": 359,
+    "retention_rate": 0.88,
+    "segments": {}
+  },
+  "signals": []
+}

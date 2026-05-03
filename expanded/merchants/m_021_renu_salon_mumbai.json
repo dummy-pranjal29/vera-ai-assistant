@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_021_renu_salon_mumbai",
+  "category_slug": "salons",
+  "identity": {
+    "name": "Beauty Lounge by Renu",
+    "city": "Mumbai",
+    "locality": "Lower Parel",
+    "place_id": "ChIJ_LOWER_PAREL_SALONS_021",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Renu"
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 107
+  },
+  "performance": {
+    "views_30d": 4114,
+    "calls_30d": 12,
+    "directions_30d": 30,
+    "ctr_30d": 0.019,
+    "views_7d_delta": -0.2,
+    "calls_7d_delta": 0.2
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 1926,
+    "active_customers": 843,
+    "lapsed_customers": 195,
+    "retention_rate": 0.52,
+    "segments": {}
+  },
+  "signals": []
+}

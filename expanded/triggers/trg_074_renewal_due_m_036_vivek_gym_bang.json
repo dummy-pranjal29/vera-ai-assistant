@@ -1,0 +1,14 @@
+{
+  "id": "trg_074_renewal_due_m_036_vivek_gym_bang",
+  "scope": "merchant",
+  "kind": "renewal_due",
+  "source": "internal",
+  "merchant_id": "m_036_vivek_gym_bangalore",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_036_vivek_gym_bangalore"
+  },
+  "urgency": 4,
+  "suppression_key": "renewal_due:m_036_vivek_gym_bangalore:gen_74",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

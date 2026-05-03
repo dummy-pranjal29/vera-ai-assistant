@@ -1,0 +1,14 @@
+{
+  "id": "trg_002_research_digest_m_011_dr_sameer_dent",
+  "scope": "merchant",
+  "kind": "research_digest",
+  "source": "external",
+  "merchant_id": "m_011_dr_sameer_dentist_lucknow",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_011_dr_sameer_dentist_lucknow"
+  },
+  "urgency": 2,
+  "suppression_key": "research_digest:m_011_dr_sameer_dentist_lucknow:gen_2",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "trg_010_perf_dip_m_035_vivek_gym_chan",
+  "scope": "merchant",
+  "kind": "perf_dip",
+  "source": "internal",
+  "merchant_id": "m_035_vivek_gym_chandigarh",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_035_vivek_gym_chandigarh"
+  },
+  "urgency": 3,
+  "suppression_key": "perf_dip:m_035_vivek_gym_chandigarh:gen_10",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

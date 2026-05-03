@@ -1,0 +1,14 @@
+{
+  "id": "trg_060_recall_due_m_043_sunita_pharmac",
+  "scope": "customer",
+  "kind": "recall_due",
+  "source": "internal",
+  "merchant_id": "m_043_sunita_pharmacie_mumbai",
+  "customer_id": "c_170_ira_for_m_043_sunita_pharmacie_mumbai",
+  "payload": {
+    "merchant_id": "m_043_sunita_pharmacie_mumbai"
+  },
+  "urgency": 3,
+  "suppression_key": "recall_due:m_043_sunita_pharmacie_mumbai:gen_60",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

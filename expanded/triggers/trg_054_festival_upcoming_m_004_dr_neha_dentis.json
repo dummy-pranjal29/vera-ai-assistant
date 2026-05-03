@@ -1,0 +1,14 @@
+{
+  "id": "trg_054_festival_upcoming_m_004_dr_neha_dentis",
+  "scope": "merchant",
+  "kind": "festival_upcoming",
+  "source": "external",
+  "merchant_id": "m_004_dr_neha_dentist_jaipur",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_004_dr_neha_dentist_jaipur"
+  },
+  "urgency": 1,
+  "suppression_key": "festival_upcoming:m_004_dr_neha_dentist_jaipur:gen_54",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

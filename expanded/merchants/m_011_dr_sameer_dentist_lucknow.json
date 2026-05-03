@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_011_dr_sameer_dentist_lucknow",
+  "category_slug": "dentists",
+  "identity": {
+    "name": "Bright Smile Dental",
+    "city": "Lucknow",
+    "locality": "Aashiana",
+    "place_id": "ChIJ_AASHIANA_DENTISTS_011",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Dr. Sameer"
+  },
+  "subscription": {
+    "status": "expired",
+    "plan": "Pro",
+    "days_remaining": 0
+  },
+  "performance": {
+    "views_30d": 3106,
+    "calls_30d": 19,
+    "directions_30d": 68,
+    "ctr_30d": 0.053,
+    "views_7d_delta": -0.0,
+    "calls_7d_delta": 0.28
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 1878,
+    "active_customers": 818,
+    "lapsed_customers": 160,
+    "retention_rate": 0.68,
+    "segments": {}
+  },
+  "signals": []
+}

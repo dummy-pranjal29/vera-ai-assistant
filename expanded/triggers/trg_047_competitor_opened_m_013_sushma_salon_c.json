@@ -1,0 +1,14 @@
+{
+  "id": "trg_047_competitor_opened_m_013_sushma_salon_c",
+  "scope": "merchant",
+  "kind": "competitor_opened",
+  "source": "external",
+  "merchant_id": "m_013_sushma_salon_chandigarh",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_013_sushma_salon_chandigarh"
+  },
+  "urgency": 2,
+  "suppression_key": "competitor_opened:m_013_sushma_salon_chandigarh:gen_47",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

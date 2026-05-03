@@ -1,0 +1,14 @@
+{
+  "id": "trg_021_perf_spike_m_039_deepak_gym_luc",
+  "scope": "merchant",
+  "kind": "perf_spike",
+  "source": "internal",
+  "merchant_id": "m_039_deepak_gym_lucknow",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_039_deepak_gym_lucknow"
+  },
+  "urgency": 1,
+  "suppression_key": "perf_spike:m_039_deepak_gym_lucknow:gen_21",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

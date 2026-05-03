@@ -1,0 +1,14 @@
+{
+  "id": "trg_059_recall_due_m_020_karim_salon_ch",
+  "scope": "customer",
+  "kind": "recall_due",
+  "source": "internal",
+  "merchant_id": "m_020_karim_salon_chennai",
+  "customer_id": "c_079_arjun_for_m_020_karim_salon_chennai",
+  "payload": {
+    "merchant_id": "m_020_karim_salon_chennai"
+  },
+  "urgency": 3,
+  "suppression_key": "recall_due:m_020_karim_salon_chennai:gen_59",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

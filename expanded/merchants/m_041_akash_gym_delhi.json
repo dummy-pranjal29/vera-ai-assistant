@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_041_akash_gym_delhi",
+  "category_slug": "gyms",
+  "identity": {
+    "name": "Fit Republic",
+    "city": "Delhi",
+    "locality": "Rohini",
+    "place_id": "ChIJ_ROHINI_GYMS_041",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Akash"
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 217
+  },
+  "performance": {
+    "views_30d": 5952,
+    "calls_30d": 60,
+    "directions_30d": 141,
+    "ctr_30d": 0.045,
+    "views_7d_delta": -0.14,
+    "calls_7d_delta": 0.19
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 1250,
+    "active_customers": 980,
+    "lapsed_customers": 210,
+    "retention_rate": 0.79,
+    "segments": {}
+  },
+  "signals": []
+}

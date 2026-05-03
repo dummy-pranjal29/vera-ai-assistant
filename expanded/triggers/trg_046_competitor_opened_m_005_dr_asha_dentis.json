@@ -1,0 +1,14 @@
+{
+  "id": "trg_046_competitor_opened_m_005_dr_asha_dentis",
+  "scope": "merchant",
+  "kind": "competitor_opened",
+  "source": "external",
+  "merchant_id": "m_005_dr_asha_dentist_chandigarh",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_005_dr_asha_dentist_chandigarh"
+  },
+  "urgency": 2,
+  "suppression_key": "competitor_opened:m_005_dr_asha_dentist_chandigarh:gen_46",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

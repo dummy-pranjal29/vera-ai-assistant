@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_033_manisha_gym_chandigarh",
+  "category_slug": "gyms",
+  "identity": {
+    "name": "Vyayam Yoga",
+    "city": "Chandigarh",
+    "locality": "Sector 22",
+    "place_id": "ChIJ_SECTOR_22_GYMS_033",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Manisha"
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 245
+  },
+  "performance": {
+    "views_30d": 1157,
+    "calls_30d": 11,
+    "directions_30d": 36,
+    "ctr_30d": 0.046,
+    "views_7d_delta": 0.09,
+    "calls_7d_delta": 0.29
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 613,
+    "active_customers": 1151,
+    "lapsed_customers": 198,
+    "retention_rate": 0.67,
+    "segments": {}
+  },
+  "signals": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "trg_015_perf_dip_m_024_mukesh_restaur",
+  "scope": "merchant",
+  "kind": "perf_dip",
+  "source": "internal",
+  "merchant_id": "m_024_mukesh_restaurant_hyderabad",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_024_mukesh_restaurant_hyderabad"
+  },
+  "urgency": 3,
+  "suppression_key": "perf_dip:m_024_mukesh_restaurant_hyderabad:gen_15",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

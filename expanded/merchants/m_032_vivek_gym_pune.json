@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_032_vivek_gym_pune",
+  "category_slug": "gyms",
+  "identity": {
+    "name": "Strength Co.",
+    "city": "Pune",
+    "locality": "Aundh",
+    "place_id": "ChIJ_AUNDH_GYMS_032",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Vivek"
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 27
+  },
+  "performance": {
+    "views_30d": 4254,
+    "calls_30d": 38,
+    "directions_30d": 85,
+    "ctr_30d": 0.06,
+    "views_7d_delta": -0.12,
+    "calls_7d_delta": -0.01
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 1505,
+    "active_customers": 570,
+    "lapsed_customers": 273,
+    "retention_rate": 0.85,
+    "segments": {}
+  },
+  "signals": []
+}

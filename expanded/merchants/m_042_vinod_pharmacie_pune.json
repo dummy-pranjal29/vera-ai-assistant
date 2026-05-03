@@ -1,0 +1,44 @@
+{
+  "merchant_id": "m_042_vinod_pharmacie_pune",
+  "category_slug": "pharmacies",
+  "identity": {
+    "name": "Family Health Pharmacy",
+    "city": "Pune",
+    "locality": "Hinjewadi",
+    "place_id": "ChIJ_HINJEWADI_PHARMACIES_042",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_name": "Vinod"
+  },
+  "subscription": {
+    "status": "trial",
+    "plan": "Trial",
+    "days_remaining": 13
+  },
+  "performance": {
+    "views_30d": 4751,
+    "calls_30d": 4,
+    "directions_30d": 21,
+    "ctr_30d": 0.049,
+    "views_7d_delta": -0.16,
+    "calls_7d_delta": -0.22
+  },
+  "offers": [],
+  "conversation_history": {
+    "turns": [],
+    "last_merchant_reply": null,
+    "last_vera_message": null,
+    "engagement_score": 0.5
+  },
+  "customer_aggregate": {
+    "total_customers": 134,
+    "active_customers": 345,
+    "lapsed_customers": 372,
+    "retention_rate": 0.7,
+    "segments": {}
+  },
+  "signals": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "trg_014_perf_dip_m_021_renu_salon_mum",
+  "scope": "merchant",
+  "kind": "perf_dip",
+  "source": "internal",
+  "merchant_id": "m_021_renu_salon_mumbai",
+  "customer_id": null,
+  "payload": {
+    "merchant_id": "m_021_renu_salon_mumbai"
+  },
+  "urgency": 3,
+  "suppression_key": "perf_dip:m_021_renu_salon_mumbai:gen_14",
+  "expires_at": "2026-06-30T00:00:00Z"
+}
